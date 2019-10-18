@@ -1,0 +1,125 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/clipboard.min.js"></script>
+<style>
+    #domain{
+        text-align: center;
+    }
+    .ips dt {
+        text-align:center;background:#ebd3d3;line-height:30px;
+    }
+    .ips dd {
+        cursor:pointer;line-height:28px;font-size:14px;text-align:center;
+        position: relative;
+    }
+    .ips dd.active {
+        background:#eee8e8;
+    }
+    .ips dd:active, .ips dd:hover{
+        background:#eee8e8;
+    }
+    .ips {
+        border:1px solid rgb(224, 196, 214);
+    }
+    .ips dd span.arrows{
+        display: none;
+        position: absolute;
+        top:6px;
+        right: 1px;
+    }
+    .ips dd.active span.arrows{
+        display: inline-block;
+    }
+
+    #domain {
+        margin: 10 auto;
+    }
+#dns {
+    max-height: 249px;
+    overflow: auto;
+}
+#domains {
+    overflow: auto;
+    height:360px;
+}
+.dsl {padding: 0;margin: 0;}
+    .dsl dt {
+        float:left;
+        width:80%;
+    }
+    #copy {
+        cursor: pointer;
+        margin-bottom: 15px;
+    }
+</style>
+</head>
+<body style="padding:0;margin:0;">
+  <div class="container" style="width:780px;">
+      <div class="row">
+            <div class="panel panel-default" style="margin:0;height:600px;">
+                    <div class="panel-heading">
+                            <h2 id="domain">www.ipip.net</h2>
+                    </div>
+                    <div class="panel-body" style="clear:both;height:440px;">
+                        <div style="width:40%;float:left;" id="layoutL">
+                            <dl class="ips">
+                                <dt>Browser Side</dt>
+                                <dd class="active"><span id="browser_dns_ip"></span><span class="arrows glyphicon glyphicon-triangle-right"></span></dd>
+                            </dl>
+                            <dl id="dns" class="ips">
+                                <dt>Server Side</dt>
+                            </dl>
+                            <dl id="domain" class="ips">
+                                <dt>Domain</dt>
+                                <dd id="domain_num">0</dd>
+                            </dl>
+                        </div>
+                        <div style="width:60%;float:right;padding-left:20px;" id="layoutR">
+                                <dl>
+                                    <dt>IP</dt>
+                                    <dd><span id="show_ip"></span><span style="margin-left:30px;cursor:pointer;"><a id="to_ipip">More...</a></span>  </dd>
+                                </dl>
+                                <dl>
+                                    <dt>Location</dt>
+                                    <dd><span id="location"></span></dd>
+            
+                                </dl>
+                                <dl>
+                              <dt>ISP</dt>
+                                        <dd id="isp"></dd>
+                                    </dl>
+                                <dl>
+                                   <dt>ASN</dt>
+                                        <dd id="asn"></dd>
+                                    </dl>
+                                    <dl>
+                                    <dt>Ports</dt>
+                                    <dd id="ports"></dd>
+                                </dl> 
+                         </div>
+                         <div style="width:60%;float:right;padding-left:20px;display: none;" id="layoutR2">
+                            <dl>
+                                <dt id="copy" data-clipboard-text="test copy"><span style="padding: 5px;border: 1px solid #b19999;">Domains Copy</span></dt>
+                                <dd id="domains">
+
+                                </dd>
+                            </dl>  
+                     </div>
+                    </div>
+                    <div class="panel-footer" style="text-align:center;">
+                        <p>当前IP：<span id="client_ip">正在努力加载中...</span></p>
+                        <p>&copy; 2013 - <span id="since_year">2018</span> <a id="copyright" href="https://www.ipip.net">IPIP.net</a> | <a id="privacy" href="https://www.ipip.net/privacy.html">隐私声明</a></p>
+                    </div>
+                </div>
+      </div>
+  </div>
+  <script src="js/fingerprint2.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+
+</html>

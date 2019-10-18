@@ -1,0 +1,30 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": false
+   },
+   "browser_action": {
+      "default_icon": "icon.png"
+   },
+   "content_scripts": [ {
+      "css": [ "style.css" ],
+      "js": [ "jquery-2.1.3.min.js", "page.js", "config.js", "script.js", "show-size.js", "tab-size.js", "panel.js", "ignore-spaces.js" ],
+      "matches": [ "https://github.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "Missing mate of GitHub, making single file download effortless and with more features",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoGowaaxxql0A4oFgE/DH8bQKEAjmaC4Wc4Ha2PQizwmxIJKzC5/QAr+SosH5MST3KZKJAcV5WNf6wpCLcJEZLssK7aJaRTt47hROocAi7XjeWT9Mzo7/XvOfjlt5BlXjJUKOTSIM3d7boyxUt5mqsVGfmYxsSpD9gXN6LI3LzlXWmJ+p6PTuZYU3pRj8eYga2xHoc+02+fSN8IjVRL+qhpzBc6eiv0E5vPOZwkncSE7af4zNuiEqgykWBtrLiDN4po49HVA0Ts8AcZQZ9WZcYtrirmh2a9Tzk3Xn8rSAy0eZzjEdQBsnHMKTiEgkKbLfFS6eWyytpWlQ0Lc6+LKj7QIDAQAB",
+   "manifest_version": 2,
+   "name": "Octo Mate",
+   "options_page": "options.html",
+   "permissions": [ "*://github.com/*", "tabs", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.16.5",
+   "web_accessible_resources": [ "page.js" ]
+}

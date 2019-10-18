@@ -1,0 +1,8 @@
+[2019-10-18 13:50:55.058] [sharedprocess] [info] main {"machineId":"d223949d53805b9dd2c46ca3d5dca1731195500dbc0a4226ed6e2b059ec65630"}
+[2019-10-18 13:51:19.092] [sharedprocess] [info] Installing extension: mattn.lisp
+[2019-10-18 13:51:28.179] [sharedprocess] [info] Downloaded extension: mattn.lisp /tmp/6e9b740f-51ec-42ea-882f-9922a6ec2b6d
+[2019-10-18 13:51:28.220] [sharedprocess] [info] Extracted extension to /home/abcdlsj/.vscode-oss/extensions/.mattn.lisp-0.1.9: mattn.lisp
+[2019-10-18 13:51:28.221] [sharedprocess] [info] Renamed to /home/abcdlsj/.vscode-oss/extensions/mattn.lisp-0.1.9
+[2019-10-18 13:51:28.221] [sharedprocess] [info] Installation completed. mattn.lisp
+[2019-10-18 13:51:28.223] [sharedprocess] [info] Extensions installed successfully: mattn.lisp
+[2019-10-18 13:51:35.062] [sharedprocess] [info] Starting to clean up unused language packs.

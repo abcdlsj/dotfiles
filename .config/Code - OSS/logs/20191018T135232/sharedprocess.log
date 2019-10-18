@@ -1,0 +1,10 @@
+[2019-10-18 13:52:35.554] [sharedprocess] [info] main {"machineId":"d223949d53805b9dd2c46ca3d5dca1731195500dbc0a4226ed6e2b059ec65630"}
+[2019-10-18 13:52:44.818] [sharedprocess] [info] Uninstalling extension: vscodevim.vim
+[2019-10-18 13:52:44.826] [sharedprocess] [info] Successfully uninstalled extension: vscodevim.vim
+[2019-10-18 13:52:46.886] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2019-10-18 13:52:47.516] [sharedprocess] [info] Downloaded extension: vscodevim.vim /tmp/ec540ea2-3bfa-48d1-8694-9c0410f7a7b9
+[2019-10-18 13:52:47.563] [sharedprocess] [info] Removed the extension from uninstalled list: vscodevim.vim
+[2019-10-18 13:52:47.570] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim
+[2019-10-18 13:52:53.799] [sharedprocess] [info] Uninstalling extension: vscodevim.vim
+[2019-10-18 13:52:53.809] [sharedprocess] [info] Successfully uninstalled extension: vscodevim.vim
+[2019-10-18 13:53:15.557] [sharedprocess] [info] Starting to clean up unused language packs.
