@@ -1,24 +1,6 @@
-2019/10/18-15:44:13.897 94f Reusing MANIFEST /home/abcdlsj/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2019/10/18-15:44:13.897 94f Recovering log #17
-2019/10/18-15:44:13.898 94f Reusing old log /home/abcdlsj/.config/google-chrome/Default/Sync Data/LevelDB/000017.log 
-2019/10/18-16:31:31.538 166e Level-0 table #22: started
-2019/10/18-16:31:31.540 166e Level-0 table #22: 124489 bytes OK
-2019/10/18-16:31:31.541 166e Delete type=0 #17
-2019/10/18-17:32:34.091 166e Level-0 table #24: started
-2019/10/18-17:32:34.093 166e Level-0 table #24: 104791 bytes OK
-2019/10/18-17:32:34.095 166e Delete type=0 #21
-2019/10/18-18:25:05.725 166e Level-0 table #26: started
-2019/10/18-18:25:05.727 166e Level-0 table #26: 101379 bytes OK
-2019/10/18-18:25:05.728 166e Delete type=0 #23
-2019/10/18-20:24:05.700 166e Level-0 table #28: started
-2019/10/18-20:24:05.703 166e Level-0 table #28: 107226 bytes OK
-2019/10/18-20:24:05.704 166e Delete type=0 #25
-2019/10/18-20:24:05.705 166e Compacting 4@0 + 1@1 files
-2019/10/18-20:24:05.714 166e Generated table #29@0: 871 keys, 231224 bytes
-2019/10/18-20:24:05.714 166e Compacted 4@0 + 1@1 files => 231224 bytes
-2019/10/18-20:24:05.715 166e compacted to: files[ 0 1 1 0 0 0 0 ]
-2019/10/18-20:24:05.715 166e Delete type=2 #19
-2019/10/18-20:24:05.715 166e Delete type=2 #22
-2019/10/18-20:24:05.715 166e Delete type=2 #28
-2019/10/18-20:24:05.715 166e Delete type=2 #24
-2019/10/18-20:24:05.715 166e Delete type=2 #26
+2019/10/19-14:56:04.323 514 Reusing MANIFEST /home/abcdlsj/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/10/19-14:56:04.323 514 Recovering log #44
+2019/10/19-14:56:04.325 514 Reusing old log /home/abcdlsj/.config/google-chrome/Default/Sync Data/LevelDB/000044.log 
+2019/10/19-14:56:09.951 68a Level-0 table #48: started
+2019/10/19-14:56:09.955 68a Level-0 table #48: 129386 bytes OK
+2019/10/19-14:56:09.956 68a Delete type=0 #44

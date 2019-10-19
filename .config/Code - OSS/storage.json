@@ -6,6 +6,9 @@
             "file:///home/abcdlsj/.emacs.d"
         ],
         "files2": [
+            "file:///home/abcdlsj/.Xresources",
+            "file:///home/abcdlsj/.config/kitty/kitty.conf",
+            "file:///home/abcdlsj/dotfiles/README.md",
             "file:///home/abcdlsj/.emacs.d/el/init-packages.el",
             "file:///home/abcdlsj/BBB/dotfiles/mine_emacs.d/init.el"
         ]
@@ -53,7 +56,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/abcdlsj/.emacs.d/el",
                                         "external": "file:///home/abcdlsj/.emacs.d/el",
                                         "path": "/home/abcdlsj/.emacs.d/el",
                                         "scheme": "file"
@@ -74,6 +76,39 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/abcdlsj/.config/kitty/kitty.conf",
+                                        "path": "/home/abcdlsj/.config/kitty/kitty.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/kitty/kitty.conf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/abcdlsj/.Xresources",
+                                        "path": "/home/abcdlsj/.Xresources",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.Xresources"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/abcdlsj/dotfiles/README.md",
+                                        "path": "/home/abcdlsj/dotfiles/README.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/dotfiles/README.md"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -209,7 +244,8 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Folder",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -398,8 +434,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -1419,14 +1454,13 @@
     "pickerWorkingDir": "/home/abcdlsj/.emacs.d",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/abcdlsj/.emacs.d/el",
-            "backupPath": "/home/abcdlsj/.config/Code - OSS/Backups/8cd3953a2298d5c410c2228b67cd96d9",
+            "backupPath": "/home/abcdlsj/.config/Code - OSS/Backups/1571472948370",
             "uiState": {
                 "mode": 1,
-                "x": 6,
-                "y": 32,
-                "width": 1908,
-                "height": 1013
+                "x": 963,
+                "y": 6,
+                "width": 951,
+                "height": 1039
             }
         },
         "openedWindows": []

@@ -1,0 +1,114 @@
+Oct 19 09:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 09:48 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 09:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 09:48 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 09:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 09:54 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 09:54 : exception: Failed to commit /home/abcdlsj/.config/mpd/state: File exists
+Oct 19 09:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 09:54 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 09:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 09:54 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 09:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 09:55 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 09:59 : client: [0] opened from [::1]:42842
+Oct 19 09:59 : client: [0] closed
+Oct 19 10:06 : client: [1] opened from [::1]:42894
+Oct 19 10:07 : client: [1] closed
+Oct 19 10:07 : client: [2] opened from [::1]:42898
+Oct 19 10:07 : client: [2] closed
+Oct 19 10:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 10:08 : avahi: Failed to add service _mpd._tcp: Local name collision
+Oct 19 10:08 : config: option 'path' on line 230 was not recognized
+Oct 19 10:11 : client: [3] opened from [::1]:43002
+Oct 19 10:11 : client: [3] closed
+Oct 19 10:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 10:11 : avahi: Failed to add service _mpd._tcp: Local name collision
+Oct 19 10:11 : config: option 'path' on line 230 was not recognized
+Oct 19 10:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 10:13 : config: option 'path' on line 230 was not recognized
+Oct 19 10:13 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 10:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 10:13 : config: option 'path' on line 230 was not recognized
+Oct 19 10:13 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 10:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 10:17 : config: option 'path' on line 230 was not recognized
+Oct 19 10:17 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 10:17 : exception: Failed to commit /home/abcdlsj/.config/mpd/state: File exists
+Oct 19 10:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 10:17 : config: option 'path' on line 230 was not recognized
+Oct 19 10:17 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 10:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 10:17 : config: option 'path' on line 230 was not recognized
+Oct 19 10:17 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 10:17 : client: [0] opened from [::1]:43024
+Oct 19 10:17 : client: [0] closed
+Oct 19 10:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 10:19 : config: option 'path' on line 230 was not recognized
+Oct 19 10:19 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 10:20 : client: [1] opened from [::1]:43050
+Oct 19 10:20 : client: [1] closed
+Oct 19 10:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 10:21 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 10:22 : client: [2] opened from [::1]:43052
+Oct 19 10:22 : client: [2] closed
+Oct 19 10:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 10:24 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 10:24 : exception: Failed to commit /home/abcdlsj/.config/mpd/state: File exists
+Oct 19 10:24 : exception: Failed to commit /home/abcdlsj/.config/mpd/state: File exists
+Oct 19 10:24 : exception: Failed to commit /home/abcdlsj/.config/mpd/state: File exists
+Oct 19 10:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 10:24 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 10:24 : client: [0] opened from [::1]:43058
+Oct 19 10:24 : client: [0] closed
+Oct 19 10:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 10:31 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 10:37 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 10:37 : config: option 'server' on line 230 was not recognized
+Oct 19 10:37 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 10:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 10:48 : config: option 'server' on line 230 was not recognized
+Oct 19 10:48 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 10:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 10:57 : config: option 'server' on line 230 was not recognized
+Oct 19 10:57 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 11:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 11:07 : config: option 'server' on line 230 was not recognized
+Oct 19 11:07 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 11:07 : client: [0] opened from [::1]:38238
+Oct 19 11:07 : client: [0] closed
+Oct 19 11:07 : client: [1] opened from [::1]:38264
+Oct 19 11:07 : client: [1] closed
+Oct 19 11:07 : client: [2] opened from [::1]:38270
+Oct 19 11:08 : client: [2] closed
+Oct 19 11:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 11:11 : config: option 'server' on line 230 was not recognized
+Oct 19 11:11 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 11:21 : client: [3] opened from [::1]:38610
+Oct 19 11:21 : client: [3] closed
+Oct 19 11:21 : client: [4] opened from [::1]:38614
+Oct 19 11:21 : update: added /a7140d686bc2390c674bf9da7bf47e97.mp3
+Oct 19 11:22 : client: [4] closed
+Oct 19 11:23 : client: [5] opened from [::1]:38630
+Oct 19 11:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 11:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 11:23 : client: [5] closed
+Oct 19 11:31 : client: [6] opened from [::1]:38694
+Oct 19 11:35 : player: played "a7140d686bc2390c674bf9da7bf47e97.mp3"
+Oct 19 11:35 : client: [6] closed
+Oct 19 11:35 : client: [7] opened from [::1]:38782
+Oct 19 11:35 : client: [7] closed
+Oct 19 13:27 : client: [8] opened from [::1]:39068
+Oct 19 13:27 : client: [8] closed
+Oct 19 13:29 : exception: Failed to commit /home/abcdlsj/.config/mpd/state: File exists
+Oct 19 13:29 : player: played "a7140d686bc2390c674bf9da7bf47e97.mp3"
+Oct 19 16:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 16:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 16:32 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 16:32 : player: played "a7140d686bc2390c674bf9da7bf47e97.mp3"
+Oct 19 16:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 16:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 16:32 : avahi: Service 'Music Player @ MA' successfully established.
+Oct 19 16:32 : client: [0] opened from [::1]:54522
+Oct 19 16:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 16:35 : player: played "a7140d686bc2390c674bf9da7bf47e97.mp3"

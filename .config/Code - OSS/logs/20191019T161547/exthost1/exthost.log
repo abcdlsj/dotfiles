@@ -1,0 +1,14 @@
+[2019-10-19 16:15:49.155] [exthost] [info] extension host started
+[2019-10-19 16:15:49.162] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-10-19 16:15:49.162] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2019-10-19 16:15:49.164] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-10-19 16:15:49.165] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/extension
+[2019-10-19 16:15:49.197] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-10-19 16:15:49.197] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2019-10-19 16:15:49.267] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-10-19 16:15:49.267] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/extension
+[2019-10-19 16:15:49.273] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"activationEvent":"*"}
+[2019-10-19 16:15:49.273] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/abcdlsj/.vscode-oss/extensions/vscode-icons-team.vscode-icons-9.4.0/dist/src/vscode-icons.bundle.js
+[2019-10-19 16:15:49.362] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2019-10-19 16:15:49.362] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/abcdlsj/.vscode-oss/extensions/vscodevim.vim-1.11.2/out/extension
+[2019-10-19 16:15:49.508] [exthost] [info] eager extensions activated
