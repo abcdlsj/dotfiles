@@ -2,6 +2,8 @@
 
 *This is my dotfiles*
 
+截图是旧的
+
 `this is now!!!`
 ![0](./img/2019-10-20-120815_1920x1080_scrot.png)
 `icat/ppanel/diff/neofetch`
