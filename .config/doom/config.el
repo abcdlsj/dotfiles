@@ -11,3 +11,33 @@
 (load! "+bindings")
 (load! "+ui")
 (load! "+functions")
+(use-package! modern-cpp-font-lock
+  :hook (c++-mode . modern-c++-font-lock-mode))
+(use-package! lsp-mode :commands lsp)
+(use-package! lsp-ui :commands lsp-ui-mode)
+(use-package! company-lsp :commands company-lsp)
+(use-package! ccls
+  :config
+  (setq ccls-executable "/usr/bin/ccls")
+  (setq ccls-sem-highlight-method 'font-lock))
+(use-package! company-lsp
+  :config
+  (push 'company-lsp company-backend))
+(after! format
+  (set-formatter!
+    'clang-format
+    '("clang-format"
+      ("-assume-filename=%S" (or (buffer-file-name) ""))
+      "-style=Google"))
+  :modes
+  '((c-mode ".c")
+    (c++-mode ".cpp")
+    (java-mode ".java")
+    (objc-mode ".m")
+    ))
+
+(after! centaur-tabs
+  :config
+  (setq centaur-tabs-style "zigzag")
+  (setq centaur-tabs-height 22)
+  (setq centaur-tabs-set-icons t))

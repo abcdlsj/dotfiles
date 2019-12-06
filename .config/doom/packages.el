@@ -11,3 +11,13 @@
 ;; (package! some-package)
 ;; (package! another-package :recipe (:host github :repo "username/repo"))
 ;; (package! builtin-package :disable t)
+
+(package! base16-theme)
+(package! doom-themes :ignore t)
+(package! org-page)
+(package! org-pomodoro)
+(package! modern-cpp-font-lock)
+(package! geiser)
+(package! paredit)
+(package! winum)
+(package! clang-format)
