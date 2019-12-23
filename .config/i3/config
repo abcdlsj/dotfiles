@@ -15,7 +15,7 @@ set $mod Mod1
 # is used in the bar {} block below.
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:DejaVu Sans Mono 14
+font pango:DejaVu Sans Mono, Terminus Regular Semi-Condensed ,Monospace 13
 
 new_window pixel 2
 new_float normal
@@ -28,9 +28,10 @@ new_float normal
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
-
+exec --no-startup-id "conky -c ~/.config/conky/org-todo.config"
+exec --no-startup-id dropbox
 # Use pactl to adjust volume in PulseAudio.
-set $refresh_i3status killall -SIGUSR1 i3status
+#set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
@@ -43,7 +44,9 @@ floating_modifier $mod
 bindsym $mod+Return exec alacritty
 # kill focused window
 bindsym $mod+Shift+q kill
-
+# i3-scrot
+bindsym $mod+p exec i3-scrot
+bindsym $mod+Shift+p exec i3-scrot -s
 # start dmenu (a program launcher)
 bindsym $mod+d exec "rofi -combi-modi window,drun -show combi -modi combi"
 # There also is the (new) i3-dmenu-desktop which only displays applications
@@ -143,31 +146,28 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 assign [class="netease-cloud-music"] $ws8
 assign [class="Chromium"] $ws2
 #
-#
-#
-#
-bindsym $mod+Escape mode "$mode_system"
-set $mode_system (l)lock,(e)logout,(s)suspend,(h)hibernate,(r)reboot,(Shift+s)shutdown
+set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
-    bindsym l exec --no-startup-id i3lock-fancy , mode "default"
-    bindsym e exec --no-startup-id i3-msg exit, mode "default"
-    bindsym s exec --no-startup-id systemctl suspend, mode "default"
-    bindsym h exec --no-startup-id systemctl hibernate, mode "default"
-    bindsym r exec --no-startup-id systemctl reboot, mode "default"
-    bindsym Shift+s exec --no-startup-id systemctl poweroff, mode "default"  
+    bindsym l exec --no-startup-id i3exit lock, mode "default"
+    bindsym e exec --no-startup-id i3exit logout, mode "default"
+    bindsym s exec --no-startup-id i3exit suspend, mode "default"
+    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
+    bindsym r exec --no-startup-id i3exit reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"  
 
     # back to normal: Enter or Escape
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
+bindsym $mod+Escape mode "$mode_system"
 #
 exec --no-startup-id xset dpms 300
 
 #
 #MMMMMMMM
 exec_always --no-startup-id /usr/lib/gsd-xsettings&
-exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpaper/wallhaven-457986.jpg
-exec_always --no-startup-id fcitx
+exec_always --no-startup-id feh --bg-fill ~/Pictures/920192.jpg
+#exec_always --no-startup-id ibus-daemon -x -d
 exec_always --no-startup-id compton -b
 #
 bindsym $mod+q split toggle
@@ -213,7 +213,7 @@ set $color_normal_white  #e6e6e6
 set $color_bright_white  #ffffff
 set $color_normal_gray   #222222
 set $color_bright_gray   #4d2600
-set $color_bright_yellow #d79921
+set $color_bright_green  #99ff66
 set $color_normal_black  #21242B
 set $color_unused        #4d2600
 # to:
@@ -221,23 +221,24 @@ set $color_unused        #4d2600
 # Same logic applied to everything else.
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 #
+set $color_normal_gray_t #222222CC
 bar {
-	i3bar_command i3bar
-	status_command i3status --config ~/.config/i3status/i3status.conf
-	status_command exec ~/.config/i3/net-speed.sh
+	i3bar_command i3bar -t
+	status_command i3status -c ~/.config/i3status/i3status.conf
+	#status_command exec ~/.config/i3/net-speed.sh
 	position top
 
     colors {
     
-    background $color_normal_gray
-    separator  $color_bright_gray
+    background $color_normal_gray_t
+    separator  $color_normal_gray_t
     statusline $color_bright_white
 
     # Type             border                 background              font
     focused_workspace  $color_bright_gray     $color_bright_gray      $color_bright_white
     active_workspace   $color_unused          $color_unused           $color_unused
     inactive_workspace $color_normal_gray     $color_normal_gray      $color_normal_white
-    urgent_workspace   $color_bright_yellow   $color_bright_yellow    $color_normal_black
+    urgent_workspace   $color_bright_green   $color_bright_green    $color_normal_black
     }	
 }
 
@@ -247,4 +248,3 @@ bar {
 # Set inner/outer gaps
 gaps inner 2
 gaps outer 2
-

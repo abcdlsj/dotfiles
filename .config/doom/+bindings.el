@@ -8,6 +8,9 @@
 ;;
 (map! :leader
       "nt" 'neotree-toggle
+      "l" 'centaur-tabs-backward
+      "r" 'centaur-tabs-forward
+      "X" 'counsel-org-capture
       )
 (use-package! winum
   :config
@@ -18,8 +21,5 @@
         "2" 'winum-select-window-2
         "3" 'winum-select-window-3
         "4" 'winum-select-window-4))
-
-(global-set-key (kbd "C-c C-h") 'centaur-tabs-backward)
-(global-set-key (kbd "C-c C-l") 'centaur-tabs-forward)
 
 (provide '+bindings)

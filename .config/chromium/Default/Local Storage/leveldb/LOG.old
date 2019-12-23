@@ -1,0 +1,6 @@
+2019/12/22-21:51:28.354 401 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2019/12/22-21:51:28.354 401 Recovering log #136
+2019/12/22-21:51:28.355 401 Reusing old log /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/000136.log 
+2019/12/22-21:51:45.821 6d1 Level-0 table #140: started
+2019/12/22-21:51:45.825 6d1 Level-0 table #140: 130029 bytes OK
+2019/12/22-21:51:45.827 6d1 Delete type=0 #136

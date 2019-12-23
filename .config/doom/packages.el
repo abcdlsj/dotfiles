@@ -21,3 +21,7 @@
 (package! paredit)
 (package! winum)
 (package! clang-format)
+(package! eaf)
+;;(package! doom-snippets :ignore t)
+;;(package! yasnippet-snippets)
+(package! org-preview-html)

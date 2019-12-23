@@ -1,9 +1,0 @@
-[2019-10-18 17:06:57.296] [sharedprocess] [info] main {"machineId":"d223949d53805b9dd2c46ca3d5dca1731195500dbc0a4226ed6e2b059ec65630"}
-[2019-10-18 17:06:57.392] [sharedprocess] [info] Deleted from disk vscodevim.vim /home/abcdlsj/.vscode-oss/extensions/vscodevim.vim-1.11.2
-[2019-10-18 17:07:37.300] [sharedprocess] [info] Starting to clean up unused language packs.
-[2019-10-18 17:08:53.001] [sharedprocess] [info] Installing extension: vscodevim.vim
-[2019-10-18 17:08:53.604] [sharedprocess] [info] Downloaded extension: vscodevim.vim /tmp/d06c3274-03b7-4c71-8944-c300b7ebfa6a
-[2019-10-18 17:08:53.898] [sharedprocess] [info] Extracted extension to /home/abcdlsj/.vscode-oss/extensions/.vscodevim.vim-1.11.2: vscodevim.vim
-[2019-10-18 17:08:53.898] [sharedprocess] [info] Renamed to /home/abcdlsj/.vscode-oss/extensions/vscodevim.vim-1.11.2
-[2019-10-18 17:08:53.899] [sharedprocess] [info] Installation completed. vscodevim.vim
-[2019-10-18 17:08:53.902] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim
