@@ -8,8 +8,8 @@
 ;;
 (map! :leader
       "nt" 'neotree-toggle
-      "l" 'centaur-tabs-backward
-      "r" 'centaur-tabs-forward
+      ;"l" 'centaur-tabs-backward
+      ;"r" 'centaur-tabs-forward
       "X" 'counsel-org-capture
       )
 (use-package! winum

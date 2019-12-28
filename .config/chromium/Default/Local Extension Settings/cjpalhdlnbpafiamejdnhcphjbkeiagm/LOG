@@ -1,3 +1,6 @@
-2019/12/24-01:42:38.856 456 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2019/12/24-01:42:38.856 456 Recovering log #59
-2019/12/24-01:42:38.856 456 Reusing old log /home/abcdlsj/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000059.log 
+2019/12/28-23:01:30.321 595 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2019/12/28-23:01:30.321 595 Recovering log #89
+2019/12/28-23:01:30.321 595 Reusing old log /home/abcdlsj/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000089.log 
+2019/12/28-23:06:46.708 bcd Level-0 table #93: started
+2019/12/28-23:06:46.736 bcd Level-0 table #93: 2850431 bytes OK
+2019/12/28-23:06:46.737 bcd Delete type=0 #89

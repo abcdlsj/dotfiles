@@ -3,8 +3,8 @@ __build_info:
   timestamps:
     bopomofo_tw.custom: 0
     bopomofo_tw.schema: 1526362370
-    default: 1576932775
-    default.custom: 0
+    default: 1577199789
+    default.custom: 1577200792
 custom_phrase:
   db_class: stabledb
   dictionary: ""

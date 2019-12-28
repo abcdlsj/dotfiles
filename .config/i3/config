@@ -15,7 +15,7 @@ set $mod Mod1
 # is used in the bar {} block below.
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:DejaVu Sans Mono, Terminus Regular Semi-Condensed ,Monospace 13
+font pango:Monaco 11
 
 new_window pixel 2
 new_float normal
@@ -30,14 +30,12 @@ new_float normal
 exec --no-startup-id nm-applet
 exec --no-startup-id "conky -c ~/.config/conky/org-todo.config"
 exec --no-startup-id dropbox
+
+# amixer
+bindsym $mod+F7 exec amixer set Master 5%+
+bindsym $mod+F8 exec amixer set Master 5%-
 # Use pactl to adjust volume in PulseAudio.
 #set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
-
-# Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
@@ -49,10 +47,7 @@ bindsym $mod+p exec i3-scrot
 bindsym $mod+Shift+p exec i3-scrot -s
 # start dmenu (a program launcher)
 bindsym $mod+d exec "rofi -combi-modi window,drun -show combi -modi combi"
-# There also is the (new) i3-dmenu-desktop which only displays applications
-# shipping a .desktop file. It is a wrapper around dmenu, so you need that
-# installed.
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+
 
 # change focus
 bindsym $mod+j focus left
@@ -206,45 +201,59 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-#
-set $color_normal_white  #e6e6e6
-set $color_bright_white  #ffffff
-set $color_normal_gray   #222222
-set $color_bright_gray   #4d2600
-set $color_bright_green  #99ff66
-set $color_normal_black  #21242B
-set $color_unused        #4d2600
-# to:
-# background $term_background
-# Same logic applied to everything else.
-# Start i3bar to display a workspace bar (plus the system information i3status if available)
-#
-set $color_normal_gray_t #222222CC
-bar {
-	i3bar_command i3bar -t
-	status_command i3status -c ~/.config/i3status/i3status.conf
-	#status_command exec ~/.config/i3/net-speed.sh
-	position top
-
-    colors {
-    
-    background $color_normal_gray_t
-    separator  $color_normal_gray_t
-    statusline $color_bright_white
-
-    # Type             border                 background              font
-    focused_workspace  $color_bright_gray     $color_bright_gray      $color_bright_white
-    active_workspace   $color_unused          $color_unused           $color_unused
-    inactive_workspace $color_normal_gray     $color_normal_gray      $color_normal_white
-    urgent_workspace   $color_bright_green   $color_bright_green    $color_normal_black
-    }	
-}
-
-# hide/unhide i3status bar
-# bindsym $mod+m bar mode toggle
-
-# Set inner/outer gaps
 gaps inner 2
 gaps outer 2
+
+hide_edge_borders both
+
+## Base16 Default Dark
+# Author: Chris Kempson (http://chriskempson.com)
+#
+# You can use these variables anywhere in the i3 configuration file.
+
+set $base00 #181818
+set $base01 #282828
+set $base02 #383838
+set $base03 #585858
+set $base04 #b8b8b8
+set $base05 #d8d8d8
+set $base06 #e8e8e8
+set $base07 #f8f8f8
+set $base08 #ab4642
+set $base09 #dc9656
+set $base0A #f7ca88
+set $base0B #a1b56c
+set $base0C #86c1b9
+set $base0D #7cafc2
+set $base0E #ba8baf
+set $base0F #a16946
+set $base00_t #181818CC
+set $base01_t #282828CC
+# Basic bar configuration using the Base16 variables.
+bar {
+
+	i3bar_command i3bar -t
+    status_command i3status -c ~/.config/i3status/i3status.conf
+    position top
+	colors {
+        background $base00_t
+        separator  $base01_t
+        statusline $base04
+
+        # State             Border  BG      Text
+        focused_workspace   $base05 $base0D $base00
+        active_workspace    $base05 $base03 $base00
+        inactive_workspace  $base03 $base01 $base05
+        urgent_workspace    $base08 $base08 $base00
+        binding_mode        $base00 $base0A $base00
+    }
+}
+
+# Basic color configuration using the Base16 variables for windows and borders.
+# Property Name         Border  BG      Text    Indicator Child Border
+client.focused          $base05 $base0D $base00 $base0D $base0C
+client.focused_inactive $base01 $base01 $base05 $base03 $base01
+client.unfocused        $base01 $base00 $base05 $base01 $base01
+client.urgent           $base08 $base08 $base00 $base08 $base08
+client.placeholder      $base00 $base00 $base05 $base00 $base00
+client.background       $base07

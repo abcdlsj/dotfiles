@@ -1,9 +1,9 @@
 __build_info:
   rime_version: 1.5.3
   timestamps:
-    default: 1576932775
-    default.custom: 1576934289
-    luna_pinyin.custom: 1576933250
+    default: 1577199789
+    default.custom: 1577200792
+    luna_pinyin.custom: 0
     luna_pinyin.schema: 1526362370
     symbols: 1526362370
     symbols.custom: 0
@@ -381,10 +381,14 @@ schema:
   version: 0.24
 speller:
   algebra:
-    - "xform/^([b-df-np-z])$/$1_/"
     - "erase/^xx$/"
     - "abbrev/^([a-z]).+$/$1/"
     - "abbrev/^([zcs]h).+$/$1/"
+    - "derive/^([nl])ve$/$1ue/"
+    - "derive/^([jqxy])u/$1v/"
+    - "derive/un$/uen/"
+    - "derive/ui$/uei/"
+    - "derive/iu$/iou/"
     - "derive/([aeiou])ng$/$1gn/"
     - "derive/([dtngkhrzcs])o(u|ng)$/$1o/"
     - "derive/ong$/on/"
@@ -403,7 +407,7 @@ switches:
   - name: ascii_punct
     states: ["。，", "．，"]
 translator:
-  dictionary: luna_pinyin.extended
+  dictionary: luna_pinyin
   preedit_format:
     - "xform/([nl])v/$1ü/"
     - "xform/([nl])ue/$1üe/"

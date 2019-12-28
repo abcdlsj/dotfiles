@@ -43,18 +43,17 @@
   :config
   (add-hook! 'completion-list-mode-hook #'hide-mode-line-mode)
   (add-hook! 'neotree-mode-hook #'hide-mode-line-mode))
-
-(use-package eaf
-  :load-path "~/.emacs.d/.local/elpa/emacs-application-framework"
-  :custom
-  (eaf-find-alternate-file-in-dired t)
-  :config
-  (eaf-bind-key scroll_up "RET" eaf-pdf-viewer-keybinding)
-  (eaf-bind-key scroll_down_page "DEL" eaf-pdf-viewer-keybinding)
-  (eaf-bind-key scroll_up "C-n" eaf-pdf-viewer-keybinding)
-  (eaf-bind-key scroll_down "C-p" eaf-pdf-viewer-keybinding)
-  (eaf-bind-key take_photo "p" eaf-camera-keybinding))
-
+;; EAF setting
+;;(use-package eaf
+;;  :load-path "~/.emacs.d/.local/elpa/emacs-application-framework"
+;;  :custom
+;;  (eaf-find-alternate-file-in-dired t)
+;;  :config
+;;  (eaf-bind-key scroll_up "RET" eaf-pdf-viewer-keybinding)
+;;  (eaf-bind-key scroll_down_page "DEL" eaf-pdf-viewer-keybinding)
+;;  (eaf-bind-key scroll_up "C-n" eaf-pdf-viewer-keybinding)
+;;  (eaf-bind-key scroll_down "C-p" eaf-pdf-viewer-keybinding)
+;;  (eaf-bind-key take_photo "p" eaf-camera-keybinding))
 (use-package! sly
   :config
   (setq inferior-lisp-program "/usr/bin/sbcl"))

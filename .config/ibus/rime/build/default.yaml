@@ -1,8 +1,8 @@
 __build_info:
   rime_version: 1.5.3
   timestamps:
-    default: 1576932775
-    default.custom: 1576934289
+    default: 1526362370
+    default.custom: 1577201752
 ascii_composer:
   good_old_caps_lock: true
   switch_key:
@@ -49,6 +49,19 @@ key_binder:
     - {accept: "Control+period", toggle: ascii_punct, when: always}
 menu:
   page_size: 8
+preset_color_schemes:
+  my:
+    author: "作者"
+    back_color: 0xFFFFFF
+    border_color: 0x000000
+    candidate_text_color: 0xFFFFFF
+    comment_text_color: 0xFFFFFF
+    hilited_back_color: 0xDDDDDD
+    hilited_candidate_back_color: 0xFFFFFF
+    hilited_candidate_text_color: 0x000000
+    hilited_text_color: 0xFFFFFF
+    name: "名字"
+    text_color: 0xFFFFFF
 punctuator:
   full_shape:
     " ": {commit: "　"}
@@ -123,14 +136,17 @@ recognizer:
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
 schema_list:
-  - schema: luna_pinyin
-  - schema: double_pinyin
+  - schema: luna_pinyin_simp
+style:
+  color_scheme: my
 switcher:
   abbreviate_options: true
   caption: "〔方案選單〕"
   fold_options: true
   hotkeys:
     - "Control+grave"
+    - "Control+Shift+grave"
+    - F4
   option_list_separator: "／"
   save_options:
     - full_shape

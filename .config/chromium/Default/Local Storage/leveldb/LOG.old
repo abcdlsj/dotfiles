@@ -1,6 +1,27 @@
-2019/12/22-21:51:28.354 401 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2019/12/22-21:51:28.354 401 Recovering log #136
-2019/12/22-21:51:28.355 401 Reusing old log /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/000136.log 
-2019/12/22-21:51:45.821 6d1 Level-0 table #140: started
-2019/12/22-21:51:45.825 6d1 Level-0 table #140: 130029 bytes OK
-2019/12/22-21:51:45.827 6d1 Delete type=0 #136
+2019/12/28-18:04:31.676 8f9 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2019/12/28-18:04:31.676 8f9 Recovering log #270
+2019/12/28-18:04:31.677 8f9 Reusing old log /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/000270.log 
+2019/12/28-18:13:27.711 fae Level-0 table #274: started
+2019/12/28-18:13:27.713 fae Level-0 table #274: 22376 bytes OK
+2019/12/28-18:13:27.715 fae Delete type=0 #270
+2019/12/28-18:14:13.280 fae Level-0 table #276: started
+2019/12/28-18:14:13.285 fae Level-0 table #276: 125486 bytes OK
+2019/12/28-18:14:13.286 fae Delete type=0 #273
+2019/12/28-18:14:13.286 fae Compacting 4@0 + 1@1 files
+2019/12/28-18:14:13.302 fae Generated table #277@0: 901 keys, 922027 bytes
+2019/12/28-18:14:13.302 fae Compacted 4@0 + 1@1 files => 922027 bytes
+2019/12/28-18:14:13.302 fae compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/12/28-18:14:13.303 fae Delete type=2 #271
+2019/12/28-18:14:13.303 fae Delete type=2 #274
+2019/12/28-18:14:13.303 fae Delete type=2 #269
+2019/12/28-18:14:13.303 fae Delete type=2 #276
+2019/12/28-18:14:13.303 fae Delete type=2 #267
+2019/12/28-18:21:13.281 fae Level-0 table #279: started
+2019/12/28-18:21:13.285 fae Level-0 table #279: 125958 bytes OK
+2019/12/28-18:21:13.285 fae Delete type=0 #275
+2019/12/28-18:22:05.059 fae Level-0 table #281: started
+2019/12/28-18:22:05.063 fae Level-0 table #281: 125178 bytes OK
+2019/12/28-18:22:05.064 fae Delete type=0 #278
+2019/12/28-18:22:13.280 fae Level-0 table #283: started
+2019/12/28-18:22:13.284 fae Level-0 table #283: 125486 bytes OK
+2019/12/28-18:22:13.285 fae Delete type=0 #280

@@ -1,20 +1,18 @@
-2019/12/24-01:42:38.653 549 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2019/12/24-01:42:38.654 549 Recovering log #139
-2019/12/24-01:42:38.657 549 Level-0 table #142: started
-2019/12/24-01:42:38.660 549 Level-0 table #142: 125357 bytes OK
-2019/12/24-01:42:38.663 549 Delete type=0 #139
-2019/12/24-01:42:38.663 554 Compacting 4@0 + 1@1 files
-2019/12/24-01:42:38.726 554 Generated table #144@0: 449 keys, 439411 bytes
-2019/12/24-01:42:38.726 554 Compacted 4@0 + 1@1 files => 439411 bytes
-2019/12/24-01:42:38.726 554 compacted to: files[ 0 1 1 0 0 0 0 ]
-2019/12/24-01:42:38.726 554 Delete type=2 #133
-2019/12/24-01:42:38.726 554 Delete type=2 #137
-2019/12/24-01:42:38.726 554 Delete type=2 #135
-2019/12/24-01:42:38.726 554 Delete type=2 #142
-2019/12/24-01:42:38.726 554 Delete type=2 #140
-2019/12/24-01:42:50.922 554 Level-0 table #146: started
-2019/12/24-01:42:50.926 554 Level-0 table #146: 125236 bytes OK
-2019/12/24-01:42:50.927 554 Delete type=0 #143
-2019/12/24-02:04:51.970 554 Level-0 table #148: started
-2019/12/24-02:04:51.972 554 Level-0 table #148: 16690 bytes OK
-2019/12/24-02:04:51.973 554 Delete type=0 #145
+2019/12/28-23:01:30.010 594 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2019/12/28-23:01:30.010 594 Recovering log #282
+2019/12/28-23:01:30.010 594 Reusing old log /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/000282.log 
+2019/12/28-23:02:24.108 8b3 Level-0 table #286: started
+2019/12/28-23:02:24.111 8b3 Level-0 table #286: 127864 bytes OK
+2019/12/28-23:02:24.112 8b3 Delete type=0 #282
+2019/12/28-23:02:24.112 8b3 Compacting 4@0 + 1@1 files
+2019/12/28-23:02:24.128 8b3 Generated table #287@0: 901 keys, 922029 bytes
+2019/12/28-23:02:24.128 8b3 Compacted 4@0 + 1@1 files => 922029 bytes
+2019/12/28-23:02:24.129 8b3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/12/28-23:02:24.129 8b3 Delete type=2 #279
+2019/12/28-23:02:24.129 8b3 Delete type=2 #286
+2019/12/28-23:02:24.129 8b3 Delete type=2 #281
+2019/12/28-23:02:24.129 8b3 Delete type=2 #283
+2019/12/28-23:02:24.129 8b3 Delete type=2 #277
+2019/12/28-23:06:00.314 8b3 Level-0 table #289: started
+2019/12/28-23:06:00.319 8b3 Level-0 table #289: 134344 bytes OK
+2019/12/28-23:06:00.321 8b3 Delete type=0 #285
