@@ -1,9 +1,2 @@
-Xft.dpi: 96
-Xft.autohint: 0
-Xft.lcdfilter:  lcddefault
-Xft.hintstyle:  hintfull
-Xft.hinting: 1
-Xft.antialias: 1
-Xft.rgba: rgb
-XTerm.vt100.faceName: Monaco :size=9
-
+#Emacs.FontBackend: xft
+Emacs.font: Monaco-16

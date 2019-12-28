@@ -98,8 +98,9 @@ scrolling:
 
 # Font configuration (changes require restart)
 font:
-  family : Monaco
-  size: 14.0
+  normal:
+    family: Monaco
+  size: 9.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -373,7 +374,7 @@ cursor:
   #   - ▇ Block
   #   - _ Underline
   #   - | Beam
-  style: Underline
+  style: Beam
 
   # If this is `true`, the cursor will be rendered as a hollow box when the
   # window is not focused.

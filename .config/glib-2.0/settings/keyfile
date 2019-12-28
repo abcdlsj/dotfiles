@@ -1,0 +1,11 @@
+[org/gtk/settings/file-chooser]
+window-position=(410, 128)
+window-size=(1096, 822)
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+sidebar-width=148
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'

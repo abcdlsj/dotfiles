@@ -1,0 +1,15 @@
+2019/12/28-22:14:13.732 6e12 Reusing MANIFEST /home/abcdlsj/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2019/12/28-22:14:13.733 6e12 Recovering log #15
+2019/12/28-22:14:13.733 6e12 Reusing old log /home/abcdlsj/.config/google-chrome/Default/Session Storage/000015.log 
+2019/12/28-22:22:52.079 6faa Level-0 table #19: started
+2019/12/28-22:22:52.080 6faa Level-0 table #19: 22232 bytes OK
+2019/12/28-22:22:52.081 6faa Delete type=0 #15
+2019/12/28-22:22:52.081 6faa Compacting 4@0 + 1@1 files
+2019/12/28-22:22:52.083 6faa Generated table #20@0: 246 keys, 19131 bytes
+2019/12/28-22:22:52.083 6faa Compacted 4@0 + 1@1 files => 19131 bytes
+2019/12/28-22:22:52.083 6faa compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/12/28-22:22:52.084 6faa Delete type=2 #8
+2019/12/28-22:22:52.084 6faa Delete type=2 #10
+2019/12/28-22:22:52.084 6faa Delete type=2 #16
+2019/12/28-22:22:52.084 6faa Delete type=2 #13
+2019/12/28-22:22:52.084 6faa Delete type=2 #19

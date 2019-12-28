@@ -1,0 +1,15 @@
+2019/12/28-22:14:13.620 6df0 Reusing MANIFEST /home/abcdlsj/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/12/28-22:14:13.620 6df0 Recovering log #16
+2019/12/28-22:14:13.620 6df0 Reusing old log /home/abcdlsj/.config/google-chrome/Default/Sync Data/LevelDB/000016.log 
+2019/12/28-22:20:42.663 723d Level-0 table #20: started
+2019/12/28-22:20:42.666 723d Level-0 table #20: 110976 bytes OK
+2019/12/28-22:20:42.668 723d Delete type=0 #16
+2019/12/28-22:20:42.668 723d Compacting 4@0 + 1@1 files
+2019/12/28-22:20:42.674 723d Generated table #21@0: 488 keys, 89933 bytes
+2019/12/28-22:20:42.674 723d Compacted 4@0 + 1@1 files => 89933 bytes
+2019/12/28-22:20:42.675 723d compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/12/28-22:20:42.675 723d Delete type=2 #8
+2019/12/28-22:20:42.675 723d Delete type=2 #20
+2019/12/28-22:20:42.675 723d Delete type=2 #17
+2019/12/28-22:20:42.675 723d Delete type=2 #11
+2019/12/28-22:20:42.675 723d Delete type=2 #14

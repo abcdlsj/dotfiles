@@ -1,0 +1,6 @@
+2019/12/28-22:36:25.215 7baf Reusing MANIFEST /home/abcdlsj/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/12/28-22:36:25.215 7baf Recovering log #19
+2019/12/28-22:36:25.216 7baf Reusing old log /home/abcdlsj/.config/google-chrome/Default/Sync Data/LevelDB/000019.log 
+2019/12/28-22:37:33.598 7e73 Level-0 table #24: started
+2019/12/28-22:37:33.600 7e73 Level-0 table #24: 119305 bytes OK
+2019/12/28-22:37:33.601 7e73 Delete type=0 #19
