@@ -1,3 +1,24 @@
-2019/12/28-18:04:31.479 7fa Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Session Storage/MANIFEST-000001
-2019/12/28-18:04:31.479 7fa Recovering log #89
-2019/12/28-18:04:31.479 7fa Reusing old log /home/abcdlsj/.config/chromium/Default/Session Storage/000089.log 
+2019/12/31-16:43:03.257 7ad9 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Session Storage/MANIFEST-000001
+2019/12/31-16:43:03.258 7ad9 Recovering log #146
+2019/12/31-16:43:03.258 7ad9 Reusing old log /home/abcdlsj/.config/chromium/Default/Session Storage/000146.log 
+2019/12/31-16:46:42.006 7d2b Level-0 table #150: started
+2019/12/31-16:46:42.007 7d2b Level-0 table #150: 17582 bytes OK
+2019/12/31-16:46:42.008 7d2b Delete type=0 #146
+2019/12/31-16:46:42.008 7d2b Compacting 4@0 + 1@1 files
+2019/12/31-16:46:42.012 7d2b Generated table #151@0: 2461 keys, 55425 bytes
+2019/12/31-16:46:42.012 7d2b Compacted 4@0 + 1@1 files => 55425 bytes
+2019/12/31-16:46:42.013 7d2b compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/12/31-16:46:42.013 7d2b Delete type=2 #150
+2019/12/31-16:46:42.013 7d2b Delete type=2 #139
+2019/12/31-16:46:42.013 7d2b Delete type=2 #147
+2019/12/31-16:46:42.013 7d2b Delete type=2 #141
+2019/12/31-16:46:42.013 7d2b Delete type=2 #144
+2019/12/31-16:51:21.958 7d2b Level-0 table #153: started
+2019/12/31-16:51:21.960 7d2b Level-0 table #153: 72723 bytes OK
+2019/12/31-16:51:21.962 7d2b Delete type=0 #149
+2019/12/31-17:07:03.586 7d2b Level-0 table #155: started
+2019/12/31-17:07:03.587 7d2b Level-0 table #155: 54234 bytes OK
+2019/12/31-17:07:03.588 7d2b Delete type=0 #152
+2019/12/31-17:43:48.914 7d2b Level-0 table #157: started
+2019/12/31-17:43:48.916 7d2b Level-0 table #157: 79765 bytes OK
+2019/12/31-17:43:48.917 7d2b Delete type=0 #154

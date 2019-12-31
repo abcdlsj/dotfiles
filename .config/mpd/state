@@ -1,5 +1,5 @@
 sw_volume: 100
-audio_device_state:1:default detected output
+audio_device_state:1:My ALSA Device
 state: stop
 random: 0
 repeat: 0

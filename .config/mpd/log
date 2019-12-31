@@ -1,2 +1,27 @@
 Dec 28 18:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Dec 28 18:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 31 16:42 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 31 18:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 31 18:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 31 18:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 31 18:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 31 18:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 31 18:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 31 18:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 31 18:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 31 18:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 31 18:37 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 31 18:38 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 31 18:38 : config: option 'mixer_device' on line 221 was not recognized
+Dec 31 18:38 : config: option 'mixer_control' on line 222 was not recognized
+Dec 31 18:38 : config: option 'mixer_index' on line 223 was not recognized
+Dec 31 18:42 : exception: Failed to commit /home/abcdlsj/.config/mpd/state: File exists
+Dec 31 18:42 : exception: Failed to commit /home/abcdlsj/.config/mpd/state: File exists
+Dec 31 18:42 : exception: Failed to commit /home/abcdlsj/.config/mpd/state: File exists
+Dec 31 18:42 : exception: Failed to commit /home/abcdlsj/.config/mpd/state: File exists
+Dec 31 18:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 31 18:43 : config: option 'mixer_device' on line 221 was not recognized
+Dec 31 18:43 : config: option 'mixer_control' on line 222 was not recognized
+Dec 31 18:43 : config: option 'mixer_index' on line 223 was not recognized
+Dec 31 18:45 : client: [0] opened from 127.0.0.1:36372
+Dec 31 18:45 : exception: Bad song index

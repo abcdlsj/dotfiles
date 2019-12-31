@@ -1,18 +1,30 @@
-2019/12/28-23:01:30.010 594 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2019/12/28-23:01:30.010 594 Recovering log #282
-2019/12/28-23:01:30.010 594 Reusing old log /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/000282.log 
-2019/12/28-23:02:24.108 8b3 Level-0 table #286: started
-2019/12/28-23:02:24.111 8b3 Level-0 table #286: 127864 bytes OK
-2019/12/28-23:02:24.112 8b3 Delete type=0 #282
-2019/12/28-23:02:24.112 8b3 Compacting 4@0 + 1@1 files
-2019/12/28-23:02:24.128 8b3 Generated table #287@0: 901 keys, 922029 bytes
-2019/12/28-23:02:24.128 8b3 Compacted 4@0 + 1@1 files => 922029 bytes
-2019/12/28-23:02:24.129 8b3 compacted to: files[ 0 1 1 0 0 0 0 ]
-2019/12/28-23:02:24.129 8b3 Delete type=2 #279
-2019/12/28-23:02:24.129 8b3 Delete type=2 #286
-2019/12/28-23:02:24.129 8b3 Delete type=2 #281
-2019/12/28-23:02:24.129 8b3 Delete type=2 #283
-2019/12/28-23:02:24.129 8b3 Delete type=2 #277
-2019/12/28-23:06:00.314 8b3 Level-0 table #289: started
-2019/12/28-23:06:00.319 8b3 Level-0 table #289: 134344 bytes OK
-2019/12/28-23:06:00.321 8b3 Delete type=0 #285
+2019/12/31-18:28:57.172 e95 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2019/12/31-18:28:57.172 e95 Recovering log #471
+2019/12/31-18:28:57.173 e95 Reusing old log /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/000471.log 
+2019/12/31-18:29:09.009 1134 Level-0 table #475: started
+2019/12/31-18:29:09.012 1134 Level-0 table #475: 140299 bytes OK
+2019/12/31-18:29:09.019 1134 Delete type=0 #471
+2019/12/31-18:41:18.905 1134 Level-0 table #477: started
+2019/12/31-18:41:18.906 1134 Level-0 table #477: 20117 bytes OK
+2019/12/31-18:41:18.907 1134 Delete type=0 #474
+2019/12/31-18:56:43.618 1134 Level-0 table #479: started
+2019/12/31-18:56:43.621 1134 Level-0 table #479: 150279 bytes OK
+2019/12/31-18:56:43.621 1134 Delete type=0 #476
+2019/12/31-18:56:43.622 1134 Compacting 4@0 + 1@1 files
+2019/12/31-18:56:43.655 1134 Generated table #480@0: 1562 keys, 1502472 bytes
+2019/12/31-18:56:43.655 1134 Compacted 4@0 + 1@1 files => 1502472 bytes
+2019/12/31-18:56:43.656 1134 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/12/31-18:56:43.656 1134 Delete type=2 #470
+2019/12/31-18:56:43.656 1134 Delete type=2 #472
+2019/12/31-18:56:43.656 1134 Delete type=2 #479
+2019/12/31-18:56:43.656 1134 Delete type=2 #475
+2019/12/31-18:56:43.656 1134 Delete type=2 #477
+2019/12/31-19:43:34.942 1134 Level-0 table #482: started
+2019/12/31-19:43:34.943 1134 Level-0 table #482: 16188 bytes OK
+2019/12/31-19:43:34.944 1134 Delete type=0 #478
+2019/12/31-21:07:19.245 1134 Level-0 table #484: started
+2019/12/31-21:07:19.247 1134 Level-0 table #484: 24993 bytes OK
+2019/12/31-21:07:19.248 1134 Delete type=0 #481
+2019/12/31-21:16:10.916 1134 Level-0 table #486: started
+2019/12/31-21:16:10.918 1134 Level-0 table #486: 21754 bytes OK
+2019/12/31-21:16:10.919 1134 Delete type=0 #483

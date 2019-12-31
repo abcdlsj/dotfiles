@@ -32,8 +32,8 @@ exec --no-startup-id "conky -c ~/.config/conky/org-todo.config"
 exec --no-startup-id dropbox
 
 # amixer
-bindsym $mod+F7 exec amixer set Master 5%+
-bindsym $mod+F8 exec amixer set Master 5%-
+bindsym $mod+F7 exec amixer set Speaker 5%+
+bindsym $mod+F8 exec amixer set Speaker 5%-
 # Use pactl to adjust volume in PulseAudio.
 #set $refresh_i3status killall -SIGUSR1 i3status
 floating_modifier $mod
@@ -53,7 +53,7 @@ bindsym $mod+d exec "rofi -combi-modi window,drun -show combi -modi combi"
 bindsym $mod+j focus left
 bindsym $mod+k focus down
 bindsym $mod+l focus right
-bindsym $mod+i focus up 
+bindsym $mod+i focus up
 # bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
@@ -140,6 +140,12 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 #
 assign [class="netease-cloud-music"] $ws8
 assign [class="Chromium"] $ws2
+assign [class="mpv"] $ws7
+#
+for_window [class="VirtualBox"] floating enable
+for_window [class="netease-cloud-music"] floating enable
+for_window [class="mpv"] floating enable
+
 #
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
@@ -148,7 +154,7 @@ mode "$mode_system" {
     bindsym s exec --no-startup-id i3exit suspend, mode "default"
     bindsym h exec --no-startup-id i3exit hibernate, mode "default"
     bindsym r exec --no-startup-id i3exit reboot, mode "default"
-    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"  
+    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
 
     # back to normal: Enter or Escape
     bindsym Return mode "default"
@@ -231,9 +237,9 @@ set $base00_t #181818CC
 set $base01_t #282828CC
 # Basic bar configuration using the Base16 variables.
 bar {
-
 	i3bar_command i3bar -t
-    status_command i3status -c ~/.config/i3status/i3status.conf
+	status_command i3blocks
+    #status_command i3status -c ~/.config/i3status/i3status.conf
     position top
 	colors {
         background $base00_t
