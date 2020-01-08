@@ -1,63 +1,6 @@
-2019/12/31-16:43:03.478 7bc3 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2019/12/31-16:43:03.479 7bc3 Recovering log #445
-2019/12/31-16:43:03.479 7bc3 Reusing old log /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/000445.log 
-2019/12/31-16:43:16.165 7d2b Level-0 table #449: started
-2019/12/31-16:43:16.168 7d2b Level-0 table #449: 139118 bytes OK
-2019/12/31-16:43:16.168 7d2b Delete type=0 #445
-2019/12/31-16:46:49.060 7d2b Level-0 table #451: started
-2019/12/31-16:46:49.061 7d2b Level-0 table #451: 48977 bytes OK
-2019/12/31-16:46:49.062 7d2b Delete type=0 #448
-2019/12/31-16:46:49.062 7d2b Compacting 4@0 + 1@1 files
-2019/12/31-16:46:49.084 7d2b Generated table #452@0: 1468 keys, 1411541 bytes
-2019/12/31-16:46:49.084 7d2b Compacted 4@0 + 1@1 files => 1411541 bytes
-2019/12/31-16:46:49.085 7d2b compacted to: files[ 0 1 1 0 0 0 0 ]
-2019/12/31-16:46:49.085 7d2b Delete type=2 #449
-2019/12/31-16:46:49.085 7d2b Delete type=2 #442
-2019/12/31-16:46:49.085 7d2b Delete type=2 #451
-2019/12/31-16:46:49.085 7d2b Delete type=2 #444
-2019/12/31-16:46:49.085 7d2b Delete type=2 #446
-2019/12/31-16:47:42.754 7d2b Level-0 table #454: started
-2019/12/31-16:47:42.758 7d2b Level-0 table #454: 140394 bytes OK
-2019/12/31-16:47:42.759 7d2b Delete type=0 #450
-2019/12/31-16:47:43.857 7d2b Level-0 table #456: started
-2019/12/31-16:47:43.859 7d2b Level-0 table #456: 41573 bytes OK
-2019/12/31-16:47:43.861 7d2b Delete type=0 #453
-2019/12/31-16:51:03.856 7d2b Level-0 table #458: started
-2019/12/31-16:51:03.858 7d2b Level-0 table #458: 42451 bytes OK
-2019/12/31-16:51:03.859 7d2b Delete type=0 #455
-2019/12/31-16:51:19.109 7d2b Level-0 table #460: started
-2019/12/31-16:51:19.114 7d2b Level-0 table #460: 72158 bytes OK
-2019/12/31-16:51:19.115 7d2b Delete type=0 #457
-2019/12/31-16:51:19.115 7d2b Compacting 4@0 + 1@1 files
-2019/12/31-16:51:19.150 7d2b Generated table #461@0: 1485 keys, 1482619 bytes
-2019/12/31-16:51:19.150 7d2b Compacted 4@0 + 1@1 files => 1482619 bytes
-2019/12/31-16:51:19.151 7d2b compacted to: files[ 0 1 1 0 0 0 0 ]
-2019/12/31-16:51:19.151 7d2b Delete type=2 #454
-2019/12/31-16:51:19.151 7d2b Delete type=2 #452
-2019/12/31-16:51:19.151 7d2b Delete type=2 #458
-2019/12/31-16:51:19.151 7d2b Delete type=2 #456
-2019/12/31-16:51:19.151 7d2b Delete type=2 #460
-2019/12/31-16:51:26.149 7d2b Level-0 table #463: started
-2019/12/31-16:51:26.151 7d2b Level-0 table #463: 41688 bytes OK
-2019/12/31-16:51:26.152 7d2b Delete type=0 #459
-2019/12/31-17:07:02.076 7d2b Level-0 table #465: started
-2019/12/31-17:07:02.078 7d2b Level-0 table #465: 31416 bytes OK
-2019/12/31-17:07:02.079 7d2b Delete type=0 #462
-2019/12/31-17:07:09.663 7d2b Level-0 table #467: started
-2019/12/31-17:07:09.665 7d2b Level-0 table #467: 38149 bytes OK
-2019/12/31-17:07:09.666 7d2b Delete type=0 #464
-2019/12/31-17:42:16.197 7d2b Level-0 table #469: started
-2019/12/31-17:42:16.198 7d2b Level-0 table #469: 21414 bytes OK
-2019/12/31-17:42:16.199 7d2b Delete type=0 #466
-2019/12/31-17:42:16.199 7d2b Compacting 4@0 + 1@1 files
-2019/12/31-17:42:16.236 7d2b Generated table #470@0: 1519 keys, 1502721 bytes
-2019/12/31-17:42:16.236 7d2b Compacted 4@0 + 1@1 files => 1502721 bytes
-2019/12/31-17:42:16.238 7d2b compacted to: files[ 0 1 1 0 0 0 0 ]
-2019/12/31-17:42:16.238 7d2b Delete type=2 #465
-2019/12/31-17:42:16.238 7d2b Delete type=2 #461
-2019/12/31-17:42:16.238 7d2b Delete type=2 #463
-2019/12/31-17:42:16.238 7d2b Delete type=2 #469
-2019/12/31-17:42:16.238 7d2b Delete type=2 #467
-2019/12/31-17:54:44.992 7d2b Level-0 table #472: started
-2019/12/31-17:54:44.996 7d2b Level-0 table #472: 152715 bytes OK
-2019/12/31-17:54:44.997 7d2b Delete type=0 #468
+2020/01/07-22:59:11.361 11b86 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2020/01/07-22:59:11.361 11b86 Recovering log #4
+2020/01/07-22:59:11.361 11b86 Reusing old log /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/000004.log 
+2020/01/07-23:00:25.135 11d25 Level-0 table #8: started
+2020/01/07-23:00:25.137 11d25 Level-0 table #8: 23292 bytes OK
+2020/01/07-23:00:25.138 11d25 Delete type=0 #4

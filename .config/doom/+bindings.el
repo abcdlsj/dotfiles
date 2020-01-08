@@ -10,7 +10,8 @@
       "nt" 'neotree-toggle
       ;"l" 'centaur-tabs-backward
       ;"r" 'centaur-tabs-forward
-      "X" 'counsel-org-capture
+      "oc" 'counsel-org-capture
+      "vt" 'vterm-toggle
       )
 (use-package! winum
   :config

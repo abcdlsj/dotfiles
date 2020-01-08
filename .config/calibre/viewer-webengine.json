@@ -1,0 +1,41 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAAAAAPBAAAAHQAAB3sAAAQzAAADwwAAAB8AAAd5AAAEMQAAAAAAAAAAB4AAAAPDAAAAHwAAB3kAAAQx"
+  }, 
+  "main_window_state": {
+    "__class__": "bytearray", 
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIgA////AAAAAQAAAAAAAAAA/AIAAAAD+wAAABwAYgBvAG8AawBtAGEAcgBrAHMALQBkAG8AYwBrAAAAAAD/////AAAAzQD////7AAAAHABpAG4AcwBwAGUAYwB0AG8AcgAtAGQAbwBjAGsAAAAAAP////8AAAATAP////sAAAAWAGwAbwBvAGsAdQBwAC0AZABvAGMAawAAAAAA/////wAAAGMA////AAADtwAABBMAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  }, 
+  "old_prefs_migrated": true, 
+  "session_data": {
+    "controls_help_shown_count": 2, 
+    "standalone_font_settings": {}, 
+    "standalone_misc_settings": {
+      "remember_last_read": true, 
+      "remember_window_geometry": false, 
+      "save_annotations_in_ebook": true, 
+      "singleinstance": false
+    }, 
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Bromley, Hank"
+        ], 
+        "key": "/home/abcdlsj/calibre_lib/Bromley, Hank/Lisp lore _ a guide to programming the Lisp machine (2)/Lisp lore _ a guide to programming the Lis - Bromley, Hank.epub", 
+        "pathtoebook": "/home/abcdlsj/calibre_lib/Bromley, Hank/Lisp lore _ a guide to programming the Lisp machine (2)/Lisp lore _ a guide to programming the Lis - Bromley, Hank.epub", 
+        "timestamp": "2020-01-06T03:19:47.584Z", 
+        "title": "Lisp lore : a guide to programming the Lisp machine"
+      }, 
+      {
+        "authors": [
+          "John Schember"
+        ], 
+        "key": "/home/abcdlsj/calibre_lib/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub", 
+        "pathtoebook": "/home/abcdlsj/calibre_lib/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub", 
+        "timestamp": "2020-01-06T03:19:31.151Z", 
+        "title": "Quick Start Guide"
+      }
+    ]
+  }
+}

@@ -1,21 +1,24 @@
-2019/12/31-18:28:56.703 e94 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
-2019/12/31-18:28:56.703 e94 Recovering log #189
-2019/12/31-18:28:56.705 e94 Reusing old log /home/abcdlsj/.config/chromium/Default/Sync Data/LevelDB/000189.log 
-2019/12/31-18:44:07.840 22aa Level-0 table #193: started
-2019/12/31-18:44:07.842 22aa Level-0 table #193: 113830 bytes OK
-2019/12/31-18:44:07.843 22aa Delete type=0 #189
-2019/12/31-18:44:07.844 22aa Compacting 4@0 + 1@1 files
-2019/12/31-18:44:07.849 22aa Generated table #194@0: 2112 keys, 323632 bytes
-2019/12/31-18:44:07.849 22aa Compacted 4@0 + 1@1 files => 323632 bytes
-2019/12/31-18:44:07.849 22aa compacted to: files[ 0 1 1 0 0 0 0 ]
-2019/12/31-18:44:07.849 22aa Delete type=2 #185
-2019/12/31-18:44:07.849 22aa Delete type=2 #182
-2019/12/31-18:44:07.850 22aa Delete type=2 #193
-2019/12/31-18:44:07.850 22aa Delete type=2 #188
-2019/12/31-18:44:07.850 22aa Delete type=2 #190
-2019/12/31-20:59:08.129 22aa Level-0 table #196: started
-2019/12/31-20:59:08.132 22aa Level-0 table #196: 121732 bytes OK
-2019/12/31-20:59:08.134 22aa Delete type=0 #192
-2019/12/31-21:15:59.219 22aa Level-0 table #198: started
-2019/12/31-21:15:59.221 22aa Level-0 table #198: 107902 bytes OK
-2019/12/31-21:15:59.222 22aa Delete type=0 #195
+2020/01/08-12:44:12.744 864 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/01/08-12:44:12.746 864 Recovering log #325
+2020/01/08-12:44:12.748 864 Reusing old log /home/abcdlsj/.config/chromium/Default/Sync Data/LevelDB/000325.log 
+2020/01/08-13:13:36.442 29e4 Level-0 table #329: started
+2020/01/08-13:13:36.445 29e4 Level-0 table #329: 115689 bytes OK
+2020/01/08-13:13:36.446 29e4 Delete type=0 #325
+2020/01/08-13:48:20.421 29e4 Level-0 table #331: started
+2020/01/08-13:48:20.424 29e4 Level-0 table #331: 108385 bytes OK
+2020/01/08-13:48:20.431 29e4 Delete type=0 #328
+2020/01/08-13:48:20.431 29e4 Compacting 4@0 + 1@1 files
+2020/01/08-13:48:20.437 29e4 Generated table #332@0: 2821 keys, 137387 bytes
+2020/01/08-13:48:20.437 29e4 Compacted 4@0 + 1@1 files => 137387 bytes
+2020/01/08-13:48:20.439 29e4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/08-13:48:20.439 29e4 Delete type=2 #331
+2020/01/08-13:48:20.439 29e4 Delete type=2 #329
+2020/01/08-13:48:20.439 29e4 Delete type=2 #324
+2020/01/08-13:48:20.439 29e4 Delete type=2 #326
+2020/01/08-13:48:20.439 29e4 Delete type=2 #322
+2020/01/08-14:30:14.844 29e4 Level-0 table #334: started
+2020/01/08-14:30:14.848 29e4 Level-0 table #334: 107241 bytes OK
+2020/01/08-14:30:14.853 29e4 Delete type=0 #330
+2020/01/08-16:28:54.081 29e4 Level-0 table #336: started
+2020/01/08-16:28:54.085 29e4 Level-0 table #336: 109311 bytes OK
+2020/01/08-16:28:54.087 29e4 Delete type=0 #333

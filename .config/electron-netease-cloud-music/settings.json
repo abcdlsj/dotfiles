@@ -1,0 +1,13 @@
+{
+    "autoPlay": false,
+    "autoSign": true,
+    "bitRate": "l",
+    "exitOnWindowClose": true,
+    "showTrayIcon": false,
+    "themePrimaryColor": "#e53935",
+    "themeSecondaryColor": "#1b5e20",
+    "themeVariety": "dark",
+    "trayIconVariety": "light",
+    "windowBorder": true,
+    "windowZoom": 1.25
+}

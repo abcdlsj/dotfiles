@@ -11,6 +11,7 @@
 (load! "+bindings")
 (load! "+ui")
 (load! "+functions")
+
 (setq user-full-name "abcdlsj"
       user-mail-address "lisongjianshuai@gmail.com")
 (use-package! modern-cpp-font-lock
@@ -25,18 +26,6 @@
 (use-package! company-lsp
   :config
   (push 'company-lsp company-backend))
-(after! format
-  (set-formatter!
-    'clang-format
-    '("clang-format"
-      ("-assume-filename=%S" (or (buffer-file-name) ""))
-      "-style=Google"))
-  :modes
-  '((c-mode ".c")
-    (c++-mode ".cpp")
-    (java-mode ".java")
-    (objc-mode ".m")
-    ))
 
 (use-package! hide-mode-line
   :load-path "~/.emacs.d/.local/elpa/hide-mode-line"
@@ -57,3 +46,9 @@
 (use-package! sly
   :config
   (setq inferior-lisp-program "/usr/bin/sbcl"))
+
+(use-package google-c-style
+  :after c-mode
+  :hook
+  (c-mode-common-hook . google-set-c-style)
+  (c-mode-common-hook . google-make-newline-indent))

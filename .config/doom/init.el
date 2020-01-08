@@ -16,7 +16,10 @@
        company       ; the ultimate code completion backend
        ;;helm              ; the *other* search engine for love and life
        ;;ido               ; the other *other* search engine...
-       (ivy +fuzzy +prescient)                ; a search engine for love and life
+       (ivy
+        +fuzzy
+        +prescient
+        +childframe)                ; a search engine for love and life
 
        :ui
        ;;deft              ; notational velocity for Emacs
@@ -133,7 +136,7 @@
         ;;+hugo            ; use Emacs for hugo blogging
         +ipython         ; ipython/jupyter support for babel
         +pandoc          ; export-with-pandoc support
-        ;;+pomodoro        ; be fruitful with the tomato technique
+        +pomodoro        ; be fruitful with the tomato technique
         +present)        ; using org-mode for presentations
        ;;perl              ; write code no one else can comprehend
        ;;php               ; perl's insecure younger brother

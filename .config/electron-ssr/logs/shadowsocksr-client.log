@@ -1,0 +1,339 @@
+2020-01-06 09:53:09:857 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2020-01-06 09:53:09:919 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_REFUSED
+2020-01-06 09:53:11:155 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-06 09:53:11:155 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-06 09:53:14:812 [info] start download ssrr
+2020-01-06 09:53:23:222 [info] ssrr download success
+2020-01-06 09:54:42:143 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s www.google.com -p 1 -k ****** -m chacha20 -O auth_chain_a -o tls1.2_ticket_auth -b 127.0.0.1 -l 1080
+2020-01-06 09:54:42:149 [info] pac server listen at: 127.0.0.1:2333
+2020-01-06 09:54:42:149 [info] http proxy server listen at: 127.0.0.1:12333
+2020-01-06 09:54:42:343 [error] /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/../shadowsocks/common.py:268: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if addr is "":
+/home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/../shadowsocks/common.py:280: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if len(block) is 1:
+/home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/../shadowsocks/common.py:282: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  while (ip & 1) == 0 and ip is not 0:
+2020-01-06 09:54:42 INFO     util.py:94 loading libsodium from libsodium.so.23
+
+2020-01-06 09:54:42:344 [error] 2020-01-06 09:54:42 INFO     local.py:49 local start with protocol[auth_chain_a] password [b'breakwall'] method [chacha20] obfs [tls1.2_ticket_auth] obfs_param []
+2020-01-06 09:54:42 INFO     local.py:53 starting local at 127.0.0.1:1080
+2020-01-06 09:54:42 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-06 09:54:42 INFO     asyncdns.py:335 dns server: [('60.255.80.18', 53), ('119.6.6.6', 53)]
+
+2020-01-06 09:54:54:583 [info] Kill client
+2020-01-06 09:54:54:586 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sh-cu-1g.ciscofreak.com -p 11193 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-06 09:54:54:740 [error] 2020-01-06 09:54:54 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-06 09:54:54:740 [error] 2020-01-06 09:54:54 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-06 09:54:54 INFO     local.py:53 starting local at 127.0.0.1:1080
+2020-01-06 09:54:54 INFO     asyncdns.py:287 black_hostname_list init as : []
+
+2020-01-06 09:54:54:740 [error] 2020-01-06 09:54:54 INFO     asyncdns.py:335 dns server: [('60.255.80.18', 53), ('119.6.6.6', 53)]
+
+2020-01-06 09:55:25:497 [info] pac server closed.
+2020-01-06 09:55:25:504 [info] Kill client
+2020-01-06 09:55:25:506 [info] http proxy server closed.
+2020-01-06 09:55:27:810 [info] pac server listen at: 127.0.0.1:2333
+2020-01-06 09:55:27:817 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sh-cu-1g.ciscofreak.com -p 11193 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-06 09:55:27:824 [info] http proxy server listen at: 127.0.0.1:12333
+2020-01-06 09:55:27:979 [error] 2020-01-06 09:55:27 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-06 09:55:27:979 [error] 2020-01-06 09:55:27 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-06 09:55:27 INFO     local.py:53 starting local at 127.0.0.1:1080
+
+2020-01-06 09:55:27:980 [error] 2020-01-06 09:55:27 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-06 09:55:27 INFO     asyncdns.py:335 dns server: [('60.255.80.18', 53), ('119.6.6.6', 53)]
+
+2020-01-06 09:55:34:469 [info] pac server closed.
+2020-01-06 09:55:34:475 [info] Kill client
+2020-01-06 09:55:34:476 [info] http proxy server closed.
+2020-01-06 09:56:51:575 [info] pac server listen at: 127.0.0.1:2333
+2020-01-06 09:56:51:579 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s 112.node.991991.xyz -p 23800 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-06 09:56:51:584 [info] http proxy server listen at: 127.0.0.1:12333
+2020-01-06 09:56:51:720 [error] 2020-01-06 09:56:51 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-06 09:56:51:721 [error] 2020-01-06 09:56:51 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-06 09:56:51 INFO     local.py:53 starting local at 127.0.0.1:1080
+
+2020-01-06 09:56:51:721 [error] 2020-01-06 09:56:51 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-06 09:56:51 INFO     asyncdns.py:335 dns server: [('60.255.80.18', 53), ('119.6.6.6', 53)]
+
+2020-01-06 09:57:49:454 [info] Kill client
+2020-01-06 09:57:49:459 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sjc-raksmart.access.ly -p 23833 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-06 09:57:49:619 [error] 2020-01-06 09:57:49 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-06 09:57:49:619 [error] 2020-01-06 09:57:49 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-06 09:57:49 INFO     local.py:53 starting local at 127.0.0.1:1080
+2020-01-06 09:57:49 INFO     asyncdns.py:287 black_hostname_list init as : []
+
+2020-01-06 09:57:49:622 [error] 2020-01-06 09:57:49 INFO     asyncdns.py:335 dns server: [('60.255.80.18', 53), ('119.6.6.6', 53)]
+
+2020-01-06 10:06:29:153 [info] Kill client
+2020-01-06 10:13:15:384 [info] last update time: Mon Jan 06 2020 10:13:15 GMT+0800 (中国标准时间)
+2020-01-06 10:13:15:467 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2020-01-06 10:13:15:471 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sjc-raksmart.access.ly -p 23833 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-06 10:13:15:476 [info] pac server listen at: 127.0.0.1:2333
+2020-01-06 10:13:15:476 [info] http proxy server listen at: 127.0.0.1:12333
+2020-01-06 10:13:15:497 [info] next subscribe update time: Tue Jan 07 2020 10:13:15 GMT+0800 (中国标准时间)
+2020-01-06 10:13:15:614 [error] 2020-01-06 10:13:15 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-06 10:13:15:615 [error] 2020-01-06 10:13:15 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-06 10:13:15 INFO     local.py:53 starting local at 127.0.0.1:1080
+2020-01-06 10:13:15 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-06 10:13:15 INFO     asyncdns.py:335 dns server: [('60.255.80.18', 53), ('119.6.6.6', 53)]
+
+2020-01-06 10:13:15:634 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_REFUSED
+2020-01-06 10:13:17:327 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-06 10:13:17:327 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-06 10:13:17:992 [info] Kill client
+2020-01-06 10:13:17:996 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sjc-raksmart.access.ly -p 23833 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-06 10:13:18:171 [error] 2020-01-06 10:13:18 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-06 10:13:18:172 [error] 2020-01-06 10:13:18 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-06 10:13:18 INFO     local.py:53 starting local at 127.0.0.1:1080
+
+2020-01-06 10:13:18:172 [error] 2020-01-06 10:13:18 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-06 10:13:18 INFO     asyncdns.py:335 dns server: [('60.255.80.18', 53), ('119.6.6.6', 53)]
+
+2020-01-06 10:13:59:176 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_REFUSED
+2020-01-06 10:13:59:179 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_REFUSED
+2020-01-06 10:13:59:486 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-06 10:13:59:487 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-06 10:14:02:665 [info] Kill client
+2020-01-06 10:14:02:667 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s quanzou-mobile.ddns.me -p 23813 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-06 10:14:02:833 [error] 2020-01-06 10:14:02 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-06 10:14:02:833 [error] 2020-01-06 10:14:02 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-06 10:14:02 INFO     local.py:53 starting local at 127.0.0.1:1080
+
+2020-01-06 10:14:02:833 [error] 2020-01-06 10:14:02 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-06 10:14:02 INFO     asyncdns.py:335 dns server: [('60.255.80.18', 53), ('119.6.6.6', 53)]
+
+2020-01-06 10:14:07:050 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_REFUSED
+2020-01-06 10:14:07:109 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_REFUSED
+2020-01-06 10:14:07:387 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-06 10:14:07:388 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-06 10:15:25:500 [info] Kill client
+2020-01-06 10:15:25:502 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sh-cu-1g.ciscofreak.com -p 11192 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-06 10:15:25:638 [error] 2020-01-06 10:15:25 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-06 10:15:25:638 [error] 2020-01-06 10:15:25 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-06 10:15:25 INFO     local.py:53 starting local at 127.0.0.1:1080
+2020-01-06 10:15:25 INFO     asyncdns.py:287 black_hostname_list init as : []
+
+2020-01-06 10:15:25:639 [error] 2020-01-06 10:15:25 INFO     asyncdns.py:335 dns server: [('60.255.80.18', 53), ('119.6.6.6', 53)]
+
+2020-01-06 10:16:08:819 [info] Kill client
+2020-01-06 14:58:12:228 [info] last update time: Mon Jan 06 2020 14:58:12 GMT+0800 (中国标准时间)
+2020-01-06 14:58:12:294 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2020-01-06 14:58:12:298 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sh-cu-1g.ciscofreak.com -p 11192 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-06 14:58:12:304 [info] pac server listen at: 127.0.0.1:2333
+2020-01-06 14:58:12:305 [info] http proxy server listen at: 127.0.0.1:12333
+2020-01-06 14:58:12:323 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_REFUSED
+2020-01-06 14:58:12:327 [info] next subscribe update time: Tue Jan 07 2020 14:58:12 GMT+0800 (中国标准时间)
+2020-01-06 14:58:12:484 [error] 2020-01-06 14:58:12 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-06 14:58:12:485 [error] 2020-01-06 14:58:12 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-06 14:58:12 INFO     local.py:53 starting local at 127.0.0.1:1080
+2020-01-06 14:58:12 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-06 14:58:12 INFO     asyncdns.py:335 dns server: [('60.255.80.18', 53), ('119.6.6.6', 53)]
+
+2020-01-06 14:58:13:858 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-06 14:58:13:858 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-06 14:58:42:657 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_REFUSED
+2020-01-06 14:58:43:014 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-06 14:58:43:015 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-06 14:58:46:287 [info] Kill client
+2020-01-06 14:58:46:292 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sh-cu-1g.ciscofreak.com -p 11192 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-06 14:58:46:447 [error] 2020-01-06 14:58:46 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-06 14:58:46:447 [error] 2020-01-06 14:58:46 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-06 14:58:46 INFO     local.py:53 starting local at 127.0.0.1:1080
+2020-01-06 14:58:46 INFO     asyncdns.py:287 black_hostname_list init as : []
+
+2020-01-06 14:58:46:447 [error] 2020-01-06 14:58:46 INFO     asyncdns.py:335 dns server: [('60.255.80.18', 53), ('119.6.6.6', 53)]
+
+2020-01-06 14:58:50:695 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: net::ERR_CONNECTION_REFUSED
+2020-01-06 14:58:51:104 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-06 14:58:51:105 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-06 14:58:52:991 [info] Kill client
+2020-01-06 14:58:52:992 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sh-cn2-200m-vds.dnsfor.me -p 11153 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-06 14:58:53:142 [error] 2020-01-06 14:58:53 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-06 14:58:53:142 [error] 2020-01-06 14:58:53 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-06 14:58:53 INFO     local.py:53 starting local at 127.0.0.1:1080
+
+2020-01-06 14:58:53:143 [error] 2020-01-06 14:58:53 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-06 14:58:53 INFO     asyncdns.py:335 dns server: [('60.255.80.18', 53), ('119.6.6.6', 53)]
+
+2020-01-06 14:59:46:056 [info] Kill client
+2020-01-07 18:15:23:259 [info] last update time: Tue Jan 07 2020 18:15:23 GMT+0800 (中国标准时间)
+2020-01-07 18:15:23:321 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2020-01-07 18:15:23:326 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sh-cn2-200m-vds.dnsfor.me -p 11153 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-07 18:15:23:330 [info] pac server listen at: 127.0.0.1:2333
+2020-01-07 18:15:23:330 [info] http proxy server listen at: 127.0.0.1:12333
+2020-01-07 18:15:23:348 [info] next subscribe update time: Wed Jan 08 2020 18:15:23 GMT+0800 (中国标准时间)
+2020-01-07 18:15:23:508 [error] 2020-01-07 18:15:23 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-07 18:15:23:509 [error] 2020-01-07 18:15:23 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-07 18:15:23 INFO     local.py:53 starting local at 127.0.0.1:1080
+2020-01-07 18:15:23 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-07 18:15:23 INFO     asyncdns.py:335 dns server: [('192.168.1.1', 53), ('192.168.0.1', 53)]
+
+2020-01-07 18:15:55:621 [info] Kill client
+2020-01-07 18:15:55:624 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sh-cn2-200m-vds.dnsfor.me -p 11153 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-07 18:15:55:769 [error] 2020-01-07 18:15:55 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-07 18:15:55:769 [error] 2020-01-07 18:15:55 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-07 18:15:55 INFO     local.py:53 starting local at 127.0.0.1:1080
+
+2020-01-07 18:15:55:770 [error] 2020-01-07 18:15:55 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-07 18:15:55 INFO     asyncdns.py:335 dns server: [('192.168.1.1', 53), ('192.168.0.1', 53)]
+
+2020-01-07 18:16:03:900 [info] Kill client
+2020-01-07 18:16:03:904 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sjc-raksmart.access.ly -p 11231 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-07 18:16:04:046 [error] 2020-01-07 18:16:04 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-07 18:16:04:047 [error] 2020-01-07 18:16:04 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-07 18:16:04 INFO     local.py:53 starting local at 127.0.0.1:1080
+
+2020-01-07 18:16:04:047 [error] 2020-01-07 18:16:04 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-07 18:16:04 INFO     asyncdns.py:335 dns server: [('192.168.1.1', 53), ('192.168.0.1', 53)]
+
+2020-01-07 18:24:43:138 [info] Kill client
+2020-01-07 18:24:46:604 [info] last update time: Tue Jan 07 2020 18:24:46 GMT+0800 (中国标准时间)
+2020-01-07 18:24:46:667 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2020-01-07 18:24:46:671 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sjc-raksmart.access.ly -p 11231 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-07 18:24:46:676 [info] pac server listen at: 127.0.0.1:2333
+2020-01-07 18:24:46:676 [info] http proxy server listen at: 127.0.0.1:12333
+2020-01-07 18:24:46:694 [info] next subscribe update time: Wed Jan 08 2020 18:24:46 GMT+0800 (中国标准时间)
+2020-01-07 18:24:46:813 [error] 2020-01-07 18:24:46 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-07 18:24:46:814 [error] 2020-01-07 18:24:46 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-07 18:24:46 INFO     local.py:53 starting local at 127.0.0.1:1080
+2020-01-07 18:24:46 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-07 18:24:46 INFO     asyncdns.py:335 dns server: [('192.168.1.1', 53), ('192.168.0.1', 53)]
+
+2020-01-07 18:25:09:894 [info] Kill client
+2020-01-07 18:25:09:897 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s 113.node.991991.xyz -p 23811 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-07 18:25:10:052 [error] 2020-01-07 18:25:10 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-07 18:25:10:052 [error] 2020-01-07 18:25:10 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-07 18:25:10 INFO     local.py:53 starting local at 127.0.0.1:1080
+
+2020-01-07 18:25:10:053 [error] 2020-01-07 18:25:10 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-07 18:25:10 INFO     asyncdns.py:335 dns server: [('192.168.1.1', 53), ('192.168.0.1', 53)]
+
+2020-01-07 18:27:35:856 [info] Kill client
+2020-01-07 18:27:35:858 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sh-cu-1g.ciscofreak.com -p 11193 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-07 18:27:36:003 [error] 2020-01-07 18:27:36 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-07 18:27:36:003 [error] 2020-01-07 18:27:36 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-07 18:27:36 INFO     local.py:53 starting local at 127.0.0.1:1080
+2020-01-07 18:27:36 INFO     asyncdns.py:287 black_hostname_list init as : []
+
+2020-01-07 18:27:36:004 [error] 2020-01-07 18:27:36 INFO     asyncdns.py:335 dns server: [('192.168.1.1', 53), ('192.168.0.1', 53)]
+
+2020-01-07 18:32:19:545 [info] last update time: Tue Jan 07 2020 18:32:19 GMT+0800 (中国标准时间)
+2020-01-07 18:32:19:614 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2020-01-07 18:32:19:619 [error] Error: listen EADDRINUSE 127.0.0.1:1080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at doListen (net.js:1460:7)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+2020-01-07 18:32:21:923 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sh-cu-1g.ciscofreak.com -p 11193 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-07 18:32:21:935 [info] pac server listen at: 127.0.0.1:2333
+2020-01-07 18:32:21:936 [info] http proxy server listen at: 127.0.0.1:12333
+2020-01-07 18:32:21:981 [info] next subscribe update time: Wed Jan 08 2020 18:32:19 GMT+0800 (中国标准时间)
+2020-01-07 18:32:22:105 [error] 2020-01-07 18:32:22 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-07 18:32:22:105 [error] 2020-01-07 18:32:22 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-07 18:32:22 INFO     local.py:53 starting local at 127.0.0.1:1080
+2020-01-07 18:32:22 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-07 18:32:22 INFO     asyncdns.py:335 dns server: [('192.168.1.1', 53), ('192.168.0.1', 53)]
+
+2020-01-07 18:32:22:107 [error] 2020-01-07 18:32:22 ERROR    shell.py:49 [Errno 98] Address already in use
+
+2020-01-07 18:32:22:108 [info] IPv6 support
+
+2020-01-07 18:32:26:203 [info] Kill client
+2020-01-07 18:32:26:206 [error] Unhandled Rejection at: Promise [object Promise], reason: Error: kill ESRCH
+2020-01-07 18:32:27:523 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-07 18:32:27:523 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-07 18:32:29:188 [info] Kill client
+2020-01-07 18:32:35:725 [info] last update time: Tue Jan 07 2020 18:32:35 GMT+0800 (中国标准时间)
+2020-01-07 18:32:35:791 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2020-01-07 18:32:35:797 [error] Error: listen EADDRINUSE 127.0.0.1:1080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at doListen (net.js:1460:7)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+2020-01-07 18:32:38:054 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sh-cu-1g.ciscofreak.com -p 11193 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-07 18:32:38:062 [info] pac server listen at: 127.0.0.1:2333
+2020-01-07 18:32:38:062 [info] http proxy server listen at: 127.0.0.1:12333
+2020-01-07 18:32:38:092 [info] next subscribe update time: Wed Jan 08 2020 18:32:35 GMT+0800 (中国标准时间)
+2020-01-07 18:32:38:215 [error] 2020-01-07 18:32:38 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-07 18:32:38:215 [error] 2020-01-07 18:32:38 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-07 18:32:38 INFO     local.py:53 starting local at 127.0.0.1:1080
+2020-01-07 18:32:38 INFO     asyncdns.py:287 black_hostname_list init as : []
+
+2020-01-07 18:32:38:216 [error] 2020-01-07 18:32:38 INFO     asyncdns.py:335 dns server: [('192.168.1.1', 53), ('192.168.0.1', 53)]
+
+2020-01-07 18:32:38:217 [error] 2020-01-07 18:32:38 ERROR    shell.py:49 [Errno 98] Address already in use
+
+2020-01-07 18:32:38:218 [info] IPv6 support
+
+2020-01-07 18:35:18:881 [info] last update time: Tue Jan 07 2020 18:35:18 GMT+0800 (中国标准时间)
+2020-01-07 18:35:18:946 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2020-01-07 18:35:18:951 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sh-cu-1g.ciscofreak.com -p 11193 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-07 18:35:18:954 [info] pac server listen at: 127.0.0.1:2333
+2020-01-07 18:35:18:955 [info] http proxy server listen at: 127.0.0.1:12333
+2020-01-07 18:35:18:973 [info] next subscribe update time: Wed Jan 08 2020 18:35:18 GMT+0800 (中国标准时间)
+2020-01-07 18:35:19:138 [error] 2020-01-07 18:35:19 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-07 18:35:19:138 [error] 2020-01-07 18:35:19 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-07 18:35:19 INFO     local.py:53 starting local at 127.0.0.1:1080
+2020-01-07 18:35:19 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-07 18:35:19 INFO     asyncdns.py:335 dns server: [('192.168.1.1', 53), ('192.168.0.1', 53)]
+
+2020-01-07 18:39:51:035 [info] Kill client
+2020-01-07 18:45:41:063 [info] last update time: Tue Jan 07 2020 18:45:41 GMT+0800 (CST)
+2020-01-07 18:45:41:172 [info] Register shortcut: toggleWindow, Ctrl+Shift+W
+2020-01-07 18:45:41:182 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sh-cu-1g.ciscofreak.com -p 11193 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-07 18:45:41:188 [info] pac server listen at: 127.0.0.1:2333
+2020-01-07 18:45:41:189 [info] http proxy server listen at: 127.0.0.1:12333
+2020-01-07 18:45:41:202 [info] next subscribe update time: Wed Jan 08 2020 18:45:41 GMT+0800 (CST)
+2020-01-07 18:45:41:332 [error] 2020-01-07 18:45:41 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-07 18:45:41:332 [error] 2020-01-07 18:45:41 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-07 18:45:41 INFO     local.py:53 starting local at 127.0.0.1:1080
+2020-01-07 18:45:41 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-07 18:45:41 INFO     asyncdns.py:335 dns server: [('192.168.1.1', 53), ('192.168.0.1', 53)]
+
+2020-01-07 18:45:42:004 [error] Unhandled Rejection at: Promise [object Promise], reason: SyntaxError: Unexpected token : in JSON at position 3
+2020-01-07 18:45:43:287 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-07 18:45:43:287 [error] Unhandled Rejection at: Promise [object Promise], reason: SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+2020-01-07 18:45:43:401 [info] Kill client
+2020-01-07 18:45:43:404 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sh-cu-1g.ciscofreak.com -p 11193 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-07 18:45:43:548 [error] 2020-01-07 18:45:43 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-07 18:45:43:548 [error] 2020-01-07 18:45:43 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-07 18:45:43 INFO     local.py:53 starting local at 127.0.0.1:1080
+
+2020-01-07 18:45:43:549 [error] 2020-01-07 18:45:43 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-07 18:45:43 INFO     asyncdns.py:335 dns server: [('192.168.1.1', 53), ('192.168.0.1', 53)]
+
+2020-01-07 18:45:50:625 [info] Kill client
+2020-01-07 18:45:50:629 [info] run command: python /home/abcdlsj/.config/electron-ssr/shadowsocksr/shadowsocks/local.py -s sh-cu-1g.ciscofreak.com -p 11220 -k ****** -m aes-256-cfb -O auth_aes128_md5 -G 18179:PBOppe -o tls1.2_ticket_auth -g itunes.apple.com -b 127.0.0.1 -l 1080
+2020-01-07 18:45:50:784 [error] 2020-01-07 18:45:50 INFO     util.py:94 loading libcrypto from libcrypto.so.1.1
+
+2020-01-07 18:45:50:784 [error] 2020-01-07 18:45:50 INFO     local.py:49 local start with protocol[auth_aes128_md5] password [b'unNZxO'] method [aes-256-cfb] obfs [tls1.2_ticket_auth] obfs_param [itunes.apple.com]
+2020-01-07 18:45:50 INFO     local.py:53 starting local at 127.0.0.1:1080
+
+2020-01-07 18:45:50:785 [error] 2020-01-07 18:45:50 INFO     asyncdns.py:287 black_hostname_list init as : []
+2020-01-07 18:45:50 INFO     asyncdns.py:335 dns server: [('192.168.1.1', 53), ('192.168.0.1', 53)]
+
+2020-01-07 18:47:52:378 [info] Kill client
