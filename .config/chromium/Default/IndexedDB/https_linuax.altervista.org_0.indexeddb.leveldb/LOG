@@ -1,7 +1,0 @@
-2019/12/25-05:05:36.952 1757 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/IndexedDB/https_linuax.altervista.org_0.indexeddb.leveldb/MANIFEST-000001
-2019/12/25-05:05:36.952 1757 Recovering log #4
-2019/12/25-05:05:36.952 1757 Reusing old log /home/abcdlsj/.config/chromium/Default/IndexedDB/https_linuax.altervista.org_0.indexeddb.leveldb/000004.log 
-2019/12/25-05:05:37.954 17ef Level-0 table #8: started
-2019/12/25-05:05:37.954 17ef Level-0 table #8: 625 bytes OK
-2019/12/25-05:05:37.955 17ef Delete type=0 #4
-2019/12/25-05:05:37.955 17ef Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
