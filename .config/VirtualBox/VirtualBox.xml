@@ -15,16 +15,16 @@
       <ExtraDataItem name="GUI/GuestControl/ProcessControlSplitterHints" value="0,"/>
       <ExtraDataItem name="GUI/Input/HostKeyCombination" value="65515"/>
       <ExtraDataItem name="GUI/LastItemSelected" value="m=lispmachine"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="6,31,1908,1043"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="643,31,634,1043"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/abcdlsj/Downloads"/>
       <ExtraDataItem name="GUI/RecentListCD" value="/home/abcdlsj/Downloads/ubuntu-7.10-desktop-amd64.iso,/home/abcdlsj/D/iso/ubuntu-18.04.3-server-amd64.iso"/>
       <ExtraDataItem name="GUI/SessionInformationDialogGeometry" value="1080,425,145,176"/>
-      <ExtraDataItem name="GUI/SplitterSizes" value="630,1277"/>
+      <ExtraDataItem name="GUI/SplitterSizes" value="195,438"/>
       <ExtraDataItem name="GUI/SuppressMessages" value="confirmResetMachine,confirmPowerOffMachine,confirmACPIShutdownMachine,remindAboutAutoCapture,remindAboutMouseIntegration"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
-      <ExtraDataItem name="GUI/UpdateCheckCount" value="4"/>
-      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2020-01-08, stable, 6.1.0"/>
+      <ExtraDataItem name="GUI/UpdateCheckCount" value="5"/>
+      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2020-01-20, stable, 6.1.0"/>
     </ExtraData>
     <MachineRegistry>
       <MachineEntry uuid="{59609eda-3940-4f69-91e0-af143f908590}" src="/home/abcdlsj/VirtualBox VMs/lispmachine/lispmachine.vbox"/>

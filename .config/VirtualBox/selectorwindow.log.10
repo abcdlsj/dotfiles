@@ -1,25 +1,20 @@
-00:00:00.243348 VirtualBox GUI VM Selector Window 6.1.0 r135406 linux.amd64 (Dec 12 2019 21:11:25) release log
-00:00:00.243351 Log opened 2020-01-04T05:32:45.904926000Z
-00:00:00.243352 Build Type: release
-00:00:00.243355 OS Product: Linux
-00:00:00.243357 OS Release: 4.19.90-1-lts
-00:00:00.243359 OS Version: #1 SMP Tue, 17 Dec 2019 23:22:32 +0000
-00:00:00.243383 DMI Product Name: W65KJ1_KK1             
-00:00:00.243393 DMI Product Version: Not Applicable                  
-00:00:00.243399 Firmware type: UEFI
-00:00:00.244053 Secure Boot: Disabled
-00:00:00.244105 Host RAM: 15929MB (15.5GB) total, 13139MB (12.8GB) available
-00:00:00.244110 Executable: /usr/lib/virtualbox/VirtualBox
-00:00:00.244111 Process ID: 65450
-00:00:00.244111 Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.244146 Qt version: 5.13.2
-00:00:00.270994 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:00.271026 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:00:05.212550 GUI: UIInvisibleWindow::sltFallback: Move event haven't came. Screen: 0, work area: 959x539 x 75x50
-00:00:05.212581 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 959x539 x 75x50
-00:00:35.713744 GUI: UIMediumEnumerator: Medium with key={{b686e452-526c-49ae-a1ec-8c6c4b3d86b9}} created
-00:00:35.812084 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:00:53.383490 GUI: UIMediumEnumerator: Medium with key={{4868ed01-5e5a-40c0-8b28-eecaa3fba8f1}} created
-00:00:53.429286 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:01:06.632039 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
-00:12:52.989215 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:00:00.305044 VirtualBox GUI VM Selector Window 6.1.0 r135406 linux.amd64 (Dec 12 2019 21:11:25) release log
+00:00:00.305047 Log opened 2020-01-04T06:04:54.727302000Z
+00:00:00.305048 Build Type: release
+00:00:00.305051 OS Product: Linux
+00:00:00.305053 OS Release: 4.19.92-1-lts
+00:00:00.305055 OS Version: #1 SMP Tue, 31 Dec 2019 17:20:08 +0000
+00:00:00.305078 DMI Product Name: W65KJ1_KK1             
+00:00:00.305088 DMI Product Version: Not Applicable                  
+00:00:00.305094 Firmware type: UEFI
+00:00:00.305709 Secure Boot: Disabled
+00:00:00.305754 Host RAM: 15929MB (15.5GB) total, 14923MB (14.5GB) available
+00:00:00.305758 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.305759 Process ID: 1607
+00:00:00.305760 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.305789 Qt version: 5.13.2
+00:00:00.348207 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.702267 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:05.318658 GUI: UIInvisibleWindow::sltFallback: Move event haven't came. Screen: 0, work area: 959x539 x 75x50
+00:00:05.318688 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 959x539 x 75x50
+00:00:42.022491 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0

@@ -111,7 +111,12 @@
   ], 
   "grid view visible": false, 
   "library_usage_stats": {
-    "/home/abcdlsj/calibre_lib": 4
+    "/home/abcdlsj/calibre-lib": 5, 
+    "/home/abcdlsj/calibre_lib": 5
+  }, 
+  "preferences dialog geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAAAAAHpAAAAogAABY4AAANzAAAB6wAAAKIAAAWMAAADcQAAAAAAAAAAB4AAAAHrAAAAogAABYwAAANx"
   }, 
   "quick_start_guide_added": true, 
   "quickview visible": false, 

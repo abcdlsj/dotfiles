@@ -141,6 +141,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 assign [class="netease-cloud-music"] $ws8
 assign [class="Chromium"] $ws2
 assign [class="mpv"] $ws7
+assign [class="Emacs"] $ws1
 #
 for_window [class="VirtualBox"] floating enable
 for_window [class="netease-cloud-music"] floating enable
@@ -170,6 +171,7 @@ exec_always --no-startup-id /usr/lib/gsd-xsettings&
 exec_always --no-startup-id feh --bg-fill ~/Pictures/920192.jpg
 #exec_always --no-startup-id ibus-daemon -x -d
 exec_always --no-startup-id compton -b
+exec_always --no-startup-id redshift
 #
 bindsym $mod+q split toggle
 #

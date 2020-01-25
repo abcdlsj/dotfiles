@@ -1,0 +1,23 @@
+# default.custom.yaml
+# save it to: 
+#   ~/.config/ibus/rime  (linux)
+#   ~/Library/Rime       (macos)
+#   %APPDATA%\Rime       (windows)
+
+patch:
+  schema_list:
+    - schema: luna_pinyin_simp          # 朙月拼音
+  "menu/page_size": 8
+  "style/color_scheme": my    # 這項用於選中下面定義的新方案
+  "preset_color_schemes/my":
+     name: 名字
+     author: 作者
+     back_color: 0xFFFFFF
+     border_color: 0x000000
+     text_color: 0xFFFFFF
+     hilited_text_color: 0xFFFFFF
+     hilited_back_color: 0xDDDDDD
+     hilited_candidate_text_color: 0x000000
+     hilited_candidate_back_color: 0xFFFFFF
+     candidate_text_color: 0xFFFFFF
+     comment_text_color: 0xFFFFFF

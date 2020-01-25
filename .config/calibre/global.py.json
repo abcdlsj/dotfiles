@@ -26,7 +26,7 @@
   "installation_uuid": "21ee1391-161f-4d22-b7d5-be0494368c73", 
   "isbndb_com_key": "", 
   "language": "zh_CN", 
-  "library_path": "/home/abcdlsj/calibre_lib", 
+  "library_path": "/home/abcdlsj/calibre-lib", 
   "limit_search_columns": false, 
   "limit_search_columns_to": [
     "title", 
