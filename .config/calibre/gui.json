@@ -7,6 +7,10 @@
     "__class__": "bytearray", 
     "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
   }, 
+  "convert_single_dialog_geom": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAAAAAAhAAAAPAAAB14AAAQRAAAAIwAAADwAAAdcAAAEDwAAAAAAAAAAB4AAAAAjAAAAPAAAB1wAAAQP"
+  }, 
   "cover_browser_splitter_vertical_state": [
     false, 
     300
@@ -110,8 +114,20 @@
     ]
   ], 
   "grid view visible": false, 
+  "job-detail-view-dialog-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAAAAAJsAAABKgAABSsAAAMfAAACbgAAASoAAAUpAAADHQAAAAAAAAAAB4AAAAJuAAABKgAABSkAAAMd"
+  }, 
+  "jobs view column layout3": {
+    "__class__": "bytearray", 
+    "__value__": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfQAAAAFAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAAFAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AAAAAAA"
+  }, 
+  "jobs_dialog_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAAAAAKIAAABFwAABQQAAAM2AAACigAAARcAAAUCAAADNAAAAAAAAAAAB4AAAAKKAAABFwAABQIAAAM0"
+  }, 
   "library_usage_stats": {
-    "/home/abcdlsj/calibre-lib": 5, 
+    "/home/abcdlsj/calibre-lib": 9, 
     "/home/abcdlsj/calibre_lib": 5
   }, 
   "preferences dialog geometry": {
@@ -120,6 +136,21 @@
   }, 
   "quick_start_guide_added": true, 
   "quickview visible": false, 
+  "replace_scene_breaks_history": [
+    "", 
+    "<hr />", 
+    "∗ ∗ ∗", 
+    "• • •", 
+    "♦ ♦ ♦", 
+    "† †", 
+    "‡ ‡ ‡", 
+    "∞ ∞ ∞", 
+    "¤ ¤ ¤"
+  ], 
+  "scheduler_dialog_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAAAAAIyAAAA7gAABVUAAANHAAACNAAAAO4AAAVTAAADRQAAAAAAAAAAB4AAAAI0AAAA7gAABVMAAANF"
+  }, 
   "search bar visible": true, 
   "tag browser search box visible": false, 
   "tag_browser_splitter_horizontal_state": [

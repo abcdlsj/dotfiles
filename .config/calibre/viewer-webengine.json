@@ -20,6 +20,24 @@
     "standalone_recently_opened": [
       {
         "authors": [
+          "Unknown"
+        ], 
+        "key": "/home/abcdlsj/calibre-lib/Unknown/The Org Manual (4)/The Org Manual - Unknown.epub", 
+        "pathtoebook": "/home/abcdlsj/calibre-lib/Unknown/The Org Manual (4)/The Org Manual - Unknown.epub", 
+        "timestamp": "2020-01-29T08:01:02.614Z", 
+        "title": "The Org Manual"
+      }, 
+      {
+        "authors": [
+          "Bromley, Hank"
+        ], 
+        "key": "/home/abcdlsj/D/book/lisploreguide.epub", 
+        "pathtoebook": "/home/abcdlsj/D/book/lisploreguide.epub", 
+        "timestamp": "2020-01-28T13:20:46.103Z", 
+        "title": "Lisp lore : a guide to programming the Lisp machine"
+      }, 
+      {
+        "authors": [
           "Bromley, Hank"
         ], 
         "key": "/home/abcdlsj/calibre_lib/Bromley, Hank/Lisp lore _ a guide to programming the Lisp machine (2)/Lisp lore _ a guide to programming the Lis - Bromley, Hank.epub", 

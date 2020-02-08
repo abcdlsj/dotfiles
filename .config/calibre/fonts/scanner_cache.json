@@ -1,6 +1,6 @@
 {
   "fonts": {
-    "/home/abcdlsj/.local/share/fonts/all-the-icons.ttf||44732:1577630510.88": {
+    "/home/abcdlsj/.local/share/fonts/all-the-icons.ttf||44732:1580130821.22": {
       "family_name": "all-the-icons", 
       "font-family": "all-the-icons", 
       "font-stretch": "normal", 
@@ -36,7 +36,7 @@
       "wws_family_name": null, 
       "wws_subfamily_name": null
     }, 
-    "/home/abcdlsj/.local/share/fonts/file-icons.ttf||173892:1577630510.23": {
+    "/home/abcdlsj/.local/share/fonts/file-icons.ttf||173892:1580130820.93": {
       "family_name": "file-icons", 
       "font-family": "file-icons", 
       "font-stretch": "normal", 
@@ -72,7 +72,7 @@
       "wws_family_name": null, 
       "wws_subfamily_name": null
     }, 
-    "/home/abcdlsj/.local/share/fonts/fontawesome.ttf||152796:1577630509.05": {
+    "/home/abcdlsj/.local/share/fonts/fontawesome.ttf||152796:1580130820.54": {
       "family_name": "FontAwesome", 
       "font-family": "FontAwesome", 
       "font-stretch": "normal", 
@@ -108,7 +108,7 @@
       "wws_family_name": null, 
       "wws_subfamily_name": null
     }, 
-    "/home/abcdlsj/.local/share/fonts/material-design-icons.ttf||128180:1577630506.52": {
+    "/home/abcdlsj/.local/share/fonts/material-design-icons.ttf||128180:1580130819.46": {
       "family_name": "Material Icons", 
       "font-family": "Material Icons", 
       "font-stretch": "normal", 
@@ -144,7 +144,7 @@
       "wws_family_name": null, 
       "wws_subfamily_name": null
     }, 
-    "/home/abcdlsj/.local/share/fonts/octicons.ttf||52544:1577630508.18": {
+    "/home/abcdlsj/.local/share/fonts/octicons.ttf||52544:1580130820.27": {
       "family_name": "github-octicons", 
       "font-family": "github-octicons", 
       "font-stretch": "normal", 
@@ -180,7 +180,7 @@
       "wws_family_name": null, 
       "wws_subfamily_name": null
     }, 
-    "/home/abcdlsj/.local/share/fonts/weathericons.ttf||99564:1577630507.57": {
+    "/home/abcdlsj/.local/share/fonts/weathericons.ttf||99564:1580130819.88": {
       "family_name": "Weather Icons", 
       "font-family": "Weather Icons", 
       "font-stretch": "normal", 

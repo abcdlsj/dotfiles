@@ -1,3 +1,21 @@
-2020/01/23-22:48:51.366 3e8 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2020/01/23-22:48:51.366 3e8 Recovering log #967
-2020/01/23-22:48:51.366 3e8 Reusing old log /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/000967.log 
+2020/02/08-14:57:06.386 a912 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2020/02/08-14:57:06.387 a912 Recovering log #1665
+2020/02/08-14:57:06.403 a912 Level-0 table #1668: started
+2020/02/08-14:57:06.419 a912 Level-0 table #1668: 361021 bytes OK
+2020/02/08-14:57:06.422 a912 Delete type=0 #1665
+2020/02/08-14:57:06.458 a917 Compacting 4@0 + 1@1 files
+2020/02/08-14:57:06.534 a917 Generated table #1670@0: 3405 keys, 2349276 bytes
+2020/02/08-14:57:06.535 a917 Generated table #1671@0: 9 keys, 4637 bytes
+2020/02/08-14:57:06.535 a917 Compacted 4@0 + 1@1 files => 2353913 bytes
+2020/02/08-14:57:06.536 a917 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/02/08-14:57:06.536 a917 Delete type=2 #1666
+2020/02/08-14:57:06.536 a917 Delete type=2 #1668
+2020/02/08-14:57:06.536 a917 Delete type=2 #1663
+2020/02/08-14:57:06.536 a917 Delete type=2 #1661
+2020/02/08-14:57:06.536 a917 Delete type=2 #1659
+2020/02/08-15:04:16.553 a917 Level-0 table #1673: started
+2020/02/08-15:04:16.565 a917 Level-0 table #1673: 625846 bytes OK
+2020/02/08-15:04:16.566 a917 Delete type=0 #1669
+2020/02/08-15:14:01.429 a917 Level-0 table #1675: started
+2020/02/08-15:14:01.430 a917 Level-0 table #1675: 25148 bytes OK
+2020/02/08-15:14:01.431 a917 Delete type=0 #1672

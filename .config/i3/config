@@ -30,7 +30,7 @@ new_float normal
 exec --no-startup-id nm-applet
 exec --no-startup-id "conky -c ~/.config/conky/org-todo.config"
 exec --no-startup-id dropbox
-
+exec --no-startup-id "echo 800 > /sys/class/backlight/intel_backlight/brightness"
 # amixer
 bindsym $mod+F7 exec amixer set Speaker 5%+
 bindsym $mod+F8 exec amixer set Speaker 5%-
@@ -168,7 +168,7 @@ exec --no-startup-id xset dpms 300
 #
 #MMMMMMMM
 exec_always --no-startup-id /usr/lib/gsd-xsettings&
-exec_always --no-startup-id feh --bg-fill ~/Pictures/920192.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/solo-a-star-wars-story.jpg
 #exec_always --no-startup-id ibus-daemon -x -d
 exec_always --no-startup-id compton -b
 exec_always --no-startup-id redshift

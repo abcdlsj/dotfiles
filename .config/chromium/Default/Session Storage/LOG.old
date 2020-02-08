@@ -1,3 +1,6 @@
-2020/01/23-22:48:50.931 3c5 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Session Storage/MANIFEST-000001
-2020/01/23-22:48:50.932 3c5 Recovering log #176
-2020/01/23-22:48:50.932 3c5 Reusing old log /home/abcdlsj/.config/chromium/Default/Session Storage/000176.log 
+2020/02/08-14:57:06.030 a813 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Session Storage/MANIFEST-000001
+2020/02/08-14:57:06.030 a813 Recovering log #317
+2020/02/08-14:57:06.031 a813 Reusing old log /home/abcdlsj/.config/chromium/Default/Session Storage/000317.log 
+2020/02/08-15:02:47.208 a917 Level-0 table #321: started
+2020/02/08-15:02:47.209 a917 Level-0 table #321: 23964 bytes OK
+2020/02/08-15:02:47.210 a917 Delete type=0 #317

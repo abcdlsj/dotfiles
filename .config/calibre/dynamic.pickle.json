@@ -1,6 +1,14 @@
 {
   "add books dialog dir": "/home/abcdlsj/Downloads", 
   "database location dialog": "/home/abcdlsj/calibre-lib", 
+  "ebook viewer open dialog": "/home/abcdlsj/D/book", 
+  "library_delete_books_again": false, 
+  "notified-version-updates": {
+    "__class__": "set", 
+    "__value__": [
+      "4.9"
+    ]
+  }, 
   "sort_history": [
     [
       "timestamp", 

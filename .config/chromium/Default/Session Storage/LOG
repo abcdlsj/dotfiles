@@ -1,6 +1,18 @@
-2020/01/25-11:29:49.162 1223 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Session Storage/MANIFEST-000001
-2020/01/25-11:29:49.162 1223 Recovering log #176
-2020/01/25-11:29:49.162 1223 Reusing old log /home/abcdlsj/.config/chromium/Default/Session Storage/000176.log 
-2020/01/25-12:13:21.610 1713 Level-0 table #181: started
-2020/01/25-12:13:21.611 1713 Level-0 table #181: 17064 bytes OK
-2020/01/25-12:13:21.612 1713 Delete type=0 #176
+2020/02/08-15:31:34.139 ca47 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Session Storage/MANIFEST-000001
+2020/02/08-15:31:34.139 ca47 Recovering log #320
+2020/02/08-15:31:34.139 ca47 Reusing old log /home/abcdlsj/.config/chromium/Default/Session Storage/000320.log 
+2020/02/08-15:32:01.850 cbe4 Level-0 table #324: started
+2020/02/08-15:32:01.851 cbe4 Level-0 table #324: 22179 bytes OK
+2020/02/08-15:32:01.852 cbe4 Delete type=0 #320
+2020/02/08-15:52:43.532 cbe4 Level-0 table #326: started
+2020/02/08-15:52:43.533 cbe4 Level-0 table #326: 22370 bytes OK
+2020/02/08-15:52:43.534 cbe4 Delete type=0 #323
+2020/02/08-15:52:43.534 cbe4 Compacting 4@0 + 1@1 files
+2020/02/08-15:52:43.538 cbe4 Generated table #327@0: 78 keys, 26464 bytes
+2020/02/08-15:52:43.538 cbe4 Compacted 4@0 + 1@1 files => 26464 bytes
+2020/02/08-15:52:43.539 cbe4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/02/08-15:52:43.539 cbe4 Delete type=2 #321
+2020/02/08-15:52:43.539 cbe4 Delete type=2 #324
+2020/02/08-15:52:43.539 cbe4 Delete type=2 #326
+2020/02/08-15:52:43.539 cbe4 Delete type=2 #318
+2020/02/08-15:52:43.539 cbe4 Delete type=2 #315

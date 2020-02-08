@@ -3,15 +3,13 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/abcdlsj/.oh-my-zsh"
-export PATH=/opt/anaconda/bin/:$PATH
-export TERMINFO=/usr/share/terminfo
-export CURL_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="ys"
-[[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
@@ -70,7 +68,10 @@ ZSH_THEME="ys"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+[[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
+
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions extract)
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -98,35 +99,31 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ra=ranger
-alias su=sudo
+alias t="trans"
 alias vz="nvim ~/.zshrc"
 alias s="source ~/.zshrc"
-alias sps="sudo pacman -S"
-alias spr="sudo pacman -R"
-alias ya="yay -G"
-alias ls="ls -a"
 alias c="clear"
-alias nv="optirun"
-alias xmod="xmodmap ~/.xmodmap "
 alias vim="nvim"
-alias vi="nvim"
-alias vv="nvim ~/.config/nvim/init.vim"
-alias xb="xbacklight -set"
-if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-        source /etc/profile.d/vte.sh
-fi
-
-
-alias cman='man -M /home/abcdlsj/zhman/share/man/zh_CN'
-alias red='redshift -P -O'
-alias icat="kitty +kitten icat"
-alias d="kitty +kitten diff"
-export NEMU_HOME=/home/abcdlsj/ABC/ics2019/nemu
-export AM_HOME=/home/abcdlsj/ABC/ics2019/nexus-am
-export NAVY_HOME=/home/abcdlsj/ABC/ics2019/navy-apps 
+alias em="emacs -nw"
+alias start_pomo="start_pomo &"
+alias close_pomo="start_pomo &"
+#######################
+export NEMU_HOME=/home/abcdlsj/GithubPro/ics2019/nemu
+export AM_HOME=/home/abcdlsj/GithubPro/ics2019/nexus-am
+export NAVY_HOME=/home/abcdlsj/GithubPro/ics2019/navy-apps
 export ISA=riscv32
-export FONTCONFIG_FILE=/etc/fonts/fonts.conf
-export FONTCONFIG_PATH=/etc/fonts/
 export XDG_CONFIG_HOME=$HOME/.config
+export PATH=$HOME/Scripts/:$HOME/.local/bin:$HOME/.cargo/bin:$PATH
+export SCRIPT_DIR=$HOME/.config/i3blocks/
+export TERMINAL=alacritty
+export WORKSPACE=/home/abcdlsj/workspace/
+export EDITOR="/usr/bin/nvim"
+######################
+vterm_prompt_end() {
+    printf "\e]51;A$(whoami)@$(hostname):$(pwd)\e\\";
+}
+PROMPT=$PROMPT'%{$(vterm_prompt_end)%}'
 
+if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+  exec startx
+fi

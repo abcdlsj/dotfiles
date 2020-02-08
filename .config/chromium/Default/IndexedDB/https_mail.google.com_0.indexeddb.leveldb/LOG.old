@@ -1,3 +1,3 @@
-2020/01/20-11:39:00.963 2152 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/01/20-11:39:00.963 2152 Recovering log #3
-2020/01/20-11:39:00.970 2152 Reusing old log /home/abcdlsj/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
+2020/02/08-15:28:52.392 be40 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/02/08-15:28:52.392 be40 Recovering log #3
+2020/02/08-15:28:52.403 be40 Reusing old log /home/abcdlsj/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 

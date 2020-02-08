@@ -32,7 +32,7 @@
   :defines projectile-project-root-files-top-down-recurring
   :hook ((c-mode c++-mode objc-mode cuda-mode) . (lambda () (require 'ccls)))
   :config
-  (setq ccls-executable "usr/local/bin/ccls")
+  (setq ccls-executable "/usr/bin/ccls")
   (with-eval-after-load 'projectile
     (setq projectile-project-root-files-top-down-recurring
           (append '("compile_commands.json"
@@ -46,9 +46,9 @@
   (add-hook! 'completion-list-mode-hook #'hide-mode-line-mode)
   (add-hook! 'neotree-mode-hook #'hide-mode-line-mode))
 
-(use-package! sly
-  :config
-  (setq inferior-lisp-program "/usr/bin/sbcl"))
+;;(use-package! sly
+;;  :config
+;;  (setq inferior-lisp-program "/usr/bin/sbcl"))
 
 (use-package google-c-style
   :after c-mode

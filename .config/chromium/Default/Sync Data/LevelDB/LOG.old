@@ -1,3 +1,18 @@
-2020/01/23-22:48:50.690 3be Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
-2020/01/23-22:48:50.690 3be Recovering log #650
-2020/01/23-22:48:50.693 3be Reusing old log /home/abcdlsj/.config/chromium/Default/Sync Data/LevelDB/000650.log 
+2020/02/08-14:57:05.912 a80b Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/02/08-14:57:05.912 a80b Recovering log #865
+2020/02/08-14:57:05.913 a80b Reusing old log /home/abcdlsj/.config/chromium/Default/Sync Data/LevelDB/000865.log 
+2020/02/08-15:07:27.475 b331 Level-0 table #869: started
+2020/02/08-15:07:27.477 b331 Level-0 table #869: 114000 bytes OK
+2020/02/08-15:07:27.478 b331 Delete type=0 #865
+2020/02/08-15:30:40.670 b331 Level-0 table #871: started
+2020/02/08-15:30:40.674 b331 Level-0 table #871: 105574 bytes OK
+2020/02/08-15:30:40.677 b331 Delete type=0 #868
+2020/02/08-15:30:40.677 b331 Compacting 4@0 + 1@1 files
+2020/02/08-15:30:40.689 b331 Generated table #872@0: 4878 keys, 419169 bytes
+2020/02/08-15:30:40.689 b331 Compacted 4@0 + 1@1 files => 419169 bytes
+2020/02/08-15:30:40.690 b331 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/02/08-15:30:40.690 b331 Delete type=2 #863
+2020/02/08-15:30:40.690 b331 Delete type=2 #860
+2020/02/08-15:30:40.690 b331 Delete type=2 #871
+2020/02/08-15:30:40.690 b331 Delete type=2 #866
+2020/02/08-15:30:40.690 b331 Delete type=2 #869

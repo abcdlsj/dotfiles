@@ -3,26 +3,33 @@ State=AAAA/wAAAAD9AAAAAAAAB3QAAAPKAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG
 Width 1920=1908
 
 [Desktop Entry]
-FullScreen=false
+FullScreen=true
+shouldShowMenuBarComingFromFullScreen=true
+shouldShowToolBarComingFromFullScreen=true
 
 [MainWindow]
-Height 1080=1043
-State=AAAA/wAAAAD9AAAAAAAAB3QAAAPgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Height 1080=1080
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAQ4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1920=1908
+Width 1920=1920
 
 [Recent Files]
-File1[$e]=$HOME/GithubPro/NJUCS_Course_Material_JatHoiCheung/操作系统_OperatingSystem_NJUCS_2019fall_homework/张逸凯_171840708_OSlab2_report.pdf
-File2[$e]=$HOME/GithubPro/NJUCS_Course_Material_JatHoiCheung/操作系统_OperatingSystem_NJUCS_2019fall_homework/张逸凯_171840708_操作系统实验三.pdf
-File3[$e]=https://www.tldp.org/LDP/lkmpg/2.6/lkmpg.pdf
-File4[$e]=$HOME/D/book/深入理解linux内核（中文第三版）.pdf
-File5[$e]=$HOME/D/book/UNIX网络编程卷1：套接字联网API（第3版）.pdf
-File6[$e]=$HOME/D/book/算法竞赛入门经典_第2版_201703071237.pdf
-File7[$e]=$HOME/D/book/深入理解计算机系统（英文原版）.pdf
-Name1[$e]=张逸凯_171840708_OSlab2_report.pdf
-Name2[$e]=张逸凯_171840708_操作系统实验三.pdf
-Name3[$e]=lkmpg.pdf
-Name4[$e]=深入理解linux内核（中文第三版）.pdf
-Name5[$e]=UNIX网络编程卷1：套接字联网API（第3版）.pdf
-Name6[$e]=算法竞赛入门经典_第2版_201703071237.pdf
-Name7[$e]=深入理解计算机系统（英文原版）.pdf
+File1[$e]=$HOME/GithubPro/NJUCS_Course_Material_JatHoiCheung/操作系统_OperatingSystem_NJUCS_2019fall_homework/张逸凯_171840708_操作系统实验三.pdf
+File2[$e]=https://www.tldp.org/LDP/lkmpg/2.6/lkmpg.pdf
+File3[$e]=$HOME/GithubPro/NJUCS_Course_Material_JatHoiCheung/操作系统_OperatingSystem_NJUCS_2019fall_homework/张逸凯_171840708_操作系统第二章作业.pdf
+File4[$e]=$HOME/GithubPro/NJUCS_Course_Material_JatHoiCheung/操作系统_OperatingSystem_NJUCS_2019fall_homework/张逸凯_171840708_操作系统实验二.pdf
+File5[$e]=$HOME/GithubPro/NJUCS_Course_Material_JatHoiCheung/操作系统_OperatingSystem_NJUCS_2019fall_homework/张逸凯_171840708_操作系统实验一.pdf
+File6[$e]=$HOME/D/book/electron-.pdf
+File7[$e]=$HOME/D/book/词法分析.pdf
+File8[$e]=$HOME/D/book/自制编程语言.pdf
+File9[$e]=$HOME/Downloads/EssProgLan.pdf
+Name1[$e]=张逸凯_171840708_操作系统实验三.pdf
+Name2[$e]=lkmpg.pdf
+Name3[$e]=张逸凯_171840708_操作系统第二章作业.pdf
+Name4[$e]=张逸凯_171840708_操作系统实验二.pdf
+Name5[$e]=张逸凯_171840708_操作系统实验一.pdf
+Name6[$e]=electron-.pdf
+Name7[$e]=词法分析.pdf
+Name8[$e]=自制编程语言.pdf
+Name9[$e]=EssProgLan.pdf

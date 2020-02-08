@@ -28,24 +28,9 @@
           "* %U - %^{heading} %^g\n %?\n")
          )))
 
-(use-package! org-page
-  :init
-  (setq op/repository-directory "~/GithubPro/abcdlsj.github.io")
-  (setq op/site-domain "https://abcdlsj.github.io")
-  (setq op/personal-github-link "https://github.com/abcdlsj") ; if you want to show a personal github link
-  (setq op/site-main-title "ABCDLSJ'S WORLD")
-  (setq op/site-sub-title "=========>>享受专注")
-  (setq op/personal-disqus-shortname "abcdlsj")
-  (setq op/repository-org-branch "source")
-  (setq op/repository-html-branch "master")
-  (setq op/theme 'mdo))
-
-;;fix org-capture
-(use-package! org-tempo
-  :init
-  (add-hook! 'org-mode-hook))
 (use-package! elfeed-org
   :config
   (elfeed-org)
   (setq! rmh-elfeed-org-files (list "~/Dropbox/org/elfeed.org")))
+
 (provide '+org)
