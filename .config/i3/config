@@ -32,8 +32,11 @@ exec --no-startup-id "conky -c ~/.config/conky/org-todo.config"
 exec --no-startup-id dropbox
 exec --no-startup-id "echo 800 > /sys/class/backlight/intel_backlight/brightness"
 # amixer
-bindsym $mod+F7 exec amixer set Speaker 5%+
-bindsym $mod+F8 exec amixer set Speaker 5%-
+bindsym $mod+F7 exec amixer set Master 1%+
+bindsym $mod+F8 exec amixer set Master 1%-
+# pomotoro
+bindsym $mod+F9 exec start_pomo &
+bindsym $mod+F10 exec cancel_pomo &
 # Use pactl to adjust volume in PulseAudio.
 #set $refresh_i3status killall -SIGUSR1 i3status
 floating_modifier $mod
