@@ -15,5 +15,6 @@
 
 `this is now!!!`
 
+![6](./img/2020-02-08-165752_1920x1080_scrot.png)
 now use alacritty
 ![5](./img/2019-11-20.png)
