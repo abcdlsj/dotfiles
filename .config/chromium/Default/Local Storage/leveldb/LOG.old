@@ -1,9 +1,0 @@
-2020/02/10-12:37:28.032 508 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2020/02/10-12:37:28.032 508 Recovering log #1866
-2020/02/10-12:37:28.034 508 Reusing old log /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/001866.log 
-2020/02/10-13:24:31.597 56cf Level-0 table #1870: started
-2020/02/10-13:24:31.599 56cf Level-0 table #1870: 17822 bytes OK
-2020/02/10-13:24:31.600 56cf Delete type=0 #1866
-2020/02/10-13:25:57.251 56cf Level-0 table #1872: started
-2020/02/10-13:25:57.253 56cf Level-0 table #1872: 18214 bytes OK
-2020/02/10-13:25:57.255 56cf Delete type=0 #1869
