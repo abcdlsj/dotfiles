@@ -8,11 +8,10 @@ shouldShowMenuBarComingFromFullScreen=true
 shouldShowToolBarComingFromFullScreen=true
 
 [MainWindow]
-Height 1080=1080
-MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAQ4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Height 1080=1043
+State=AAAA/wAAAAD9AAAAAAAAAncAAAPgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1920=1920
+Width 1920=631
 
 [Recent Files]
 File1[$e]=$HOME/GithubPro/NJUCS_Course_Material_JatHoiCheung/操作系统_OperatingSystem_NJUCS_2019fall_homework/张逸凯_171840708_操作系统实验三.pdf
