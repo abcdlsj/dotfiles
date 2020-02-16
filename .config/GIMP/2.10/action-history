@@ -1,0 +1,16 @@
+# GIMP action-history
+
+(history-item "file-open" 3)
+(history-item "select-invert" 0)
+(history-item "view-zoom-out" 0)
+(history-item "file-save-as" 1)
+(history-item "image-scale" 0)
+(history-item "brushes-edit" 0)
+(history-item "file-quit" 0)
+(history-item "dialogs-undo-history" 0)
+(history-item "view-zoom-in" 0)
+(history-item "file-save" 0)
+(history-item "file-open-recent-02" 0)
+(history-item "file-show-in-file-manager" 1)
+
+# end of action-history

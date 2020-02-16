@@ -171,10 +171,10 @@ exec --no-startup-id xset dpms 300
 #
 #MMMMMMMM
 exec_always --no-startup-id /usr/lib/gsd-xsettings&
-exec_always --no-startup-id feh --bg-fill ~/Pictures/solo-a-star-wars-story.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/eclipse_moon_light_space_120001_3840x2160.jpg
 #exec_always --no-startup-id ibus-daemon -x -d
 exec_always --no-startup-id compton -b
-exec_always --no-startup-id redshift
+# exec_always --no-startup-id redshift
 #
 bindsym $mod+q split toggle
 #

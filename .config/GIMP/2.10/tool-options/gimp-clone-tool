@@ -1,0 +1,10 @@
+# GIMP gimp-clone-tool options
+
+(brush "Oils 01")
+(dynamics "Dynamics Off")
+(pattern "Pine")
+(palette "颜色历史")
+(brush-size 74)
+(brush-spacing 0.050000000000000003)
+
+# end of gimp-clone-tool options

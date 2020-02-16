@@ -1,0 +1,52 @@
+2020/02/16-10:37:23.244 69f Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2020/02/16-10:37:23.244 69f Recovering log #2820
+2020/02/16-10:37:23.245 69f Reusing old log /home/abcdlsj/.config/chromium/Default/Local Storage/leveldb/002820.log 
+2020/02/16-10:47:50.028 14cb Level-0 table #2824: started
+2020/02/16-10:47:50.030 14cb Level-0 table #2824: 26193 bytes OK
+2020/02/16-10:47:50.031 14cb Delete type=0 #2820
+2020/02/16-10:55:50.028 14cb Level-0 table #2826: started
+2020/02/16-10:55:50.029 14cb Level-0 table #2826: 23577 bytes OK
+2020/02/16-10:55:50.030 14cb Delete type=0 #2823
+2020/02/16-10:55:50.031 14cb Compacting 4@0 + 2@1 files
+2020/02/16-10:55:50.062 14cb Generated table #2827@0: 1562 keys, 2107197 bytes
+2020/02/16-10:55:50.096 14cb Generated table #2828@0: 3905 keys, 2379168 bytes
+2020/02/16-10:55:50.096 14cb Compacted 4@0 + 2@1 files => 4486365 bytes
+2020/02/16-10:55:50.097 14cb compacted to: files[ 0 4 1 0 0 0 0 ]
+2020/02/16-10:55:50.097 14cb Delete type=2 #2826
+2020/02/16-10:55:50.097 14cb Delete type=2 #2815
+2020/02/16-10:55:50.097 14cb Delete type=2 #2824
+2020/02/16-10:55:50.097 14cb Delete type=2 #2821
+2020/02/16-10:55:50.097 14cb Delete type=2 #2818
+2020/02/16-10:55:50.097 14cb Delete type=2 #2814
+2020/02/16-11:33:21.099 14cb Level-0 table #2830: started
+2020/02/16-11:33:21.100 14cb Level-0 table #2830: 20429 bytes OK
+2020/02/16-11:33:21.101 14cb Delete type=0 #2825
+2020/02/16-14:43:47.342 14cb Level-0 table #2832: started
+2020/02/16-14:43:47.343 14cb Level-0 table #2832: 22040 bytes OK
+2020/02/16-14:43:47.344 14cb Delete type=0 #2829
+2020/02/16-14:44:01.664 14cb Level-0 table #2834: started
+2020/02/16-14:44:01.669 14cb Level-0 table #2834: 144120 bytes OK
+2020/02/16-14:44:01.670 14cb Delete type=0 #2831
+2020/02/16-15:21:13.523 14cb Level-0 table #2836: started
+2020/02/16-15:21:13.532 14cb Level-0 table #2836: 364022 bytes OK
+2020/02/16-15:21:13.533 14cb Delete type=0 #2833
+2020/02/16-15:21:13.533 14cb Compacting 4@0 + 4@1 files
+2020/02/16-15:21:13.566 14cb Generated table #2837@0: 1568 keys, 2107928 bytes
+2020/02/16-15:21:13.612 14cb Generated table #2838@0: 3920 keys, 2379873 bytes
+2020/02/16-15:21:13.614 14cb Generated table #2839@0: 17 keys, 9522 bytes
+2020/02/16-15:21:13.614 14cb Compacted 4@0 + 4@1 files => 4497323 bytes
+2020/02/16-15:21:13.615 14cb compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/02/16-15:21:13.615 14cb Delete type=2 #2805
+2020/02/16-15:21:13.615 14cb Delete type=2 #2834
+2020/02/16-15:21:13.615 14cb Delete type=2 #2836
+2020/02/16-15:21:13.615 14cb Delete type=2 #2816
+2020/02/16-15:21:13.615 14cb Delete type=2 #2828
+2020/02/16-15:21:13.615 14cb Delete type=2 #2830
+2020/02/16-15:21:13.615 14cb Delete type=2 #2832
+2020/02/16-15:21:13.615 14cb Delete type=2 #2827
+2020/02/16-15:33:05.712 14cb Level-0 table #2841: started
+2020/02/16-15:33:05.713 14cb Level-0 table #2841: 24339 bytes OK
+2020/02/16-15:33:05.714 14cb Delete type=0 #2835
+2020/02/16-20:43:11.914 14cb Level-0 table #2843: started
+2020/02/16-20:43:11.915 14cb Level-0 table #2843: 24365 bytes OK
+2020/02/16-20:43:11.916 14cb Delete type=0 #2840

@@ -1,0 +1,30 @@
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=104d4100000158149406400001129740003
+clientId2=104d4100000158149636000000006600006
+clientId3=104d4100000158149655800000018680007
+clientId4=104d4100000158149656500000018680010
+count=4
+discardCommand1[$e]=rm,$HOME/.config/session/kwin_104d4100000158149406400001129740003_1581496641_69950
+program1=/usr/bin/kwin_x11
+program2=/usr/lib/DiscoverNotifier
+program3=pulseaudio
+program4=/home/abcdlsj/.dropbox-dist/dropbox-lnx.x86_64-90.4.307/dropbox
+restartCommand1=/usr/bin/kwin_x11,-session,104d4100000158149406400001129740003_1581496641_69950
+restartCommand2=/usr/lib/DiscoverNotifier,-session,104d4100000158149636000000006600006_1581496641_65764
+restartCommand3=
+restartCommand4=/home/abcdlsj/.dropbox-dist/dropbox-lnx.x86_64-90.4.307/dropbox,-session,104d4100000158149656500000018680010_1581496641_65577
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+userId1=abcdlsj
+userId2=abcdlsj
+userId3=abcdlsj
+userId4=abcdlsj
+wasWm1=true
+wasWm2=false
+wasWm3=false
+wasWm4=false

@@ -3,13 +3,35 @@
     true, 
     200
   ], 
+  "book_info_dialog_layout": [
+    {
+      "__class__": "bytearray", 
+      "__value__": "AdnQywADAAAAAAH3AAAAIwAABYgAAAP4AAAB+QAAACMAAAWGAAAD9gAAAAAAAAAAB4AAAAH5AAAAIwAABYYAAAP2"
+    }, 
+    {
+      "__class__": "bytearray", 
+      "__value__": "AAAA/wAAAAEAAAACAAABXgAAAV4B/////wEAAAABAA=="
+    }
+  ], 
   "book_list_pin_splitter_state": {
     "__class__": "bytearray", 
     "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
   }, 
+  "choose-merge-dialog-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAAAAAKPAAABewAABPUAAAKgAAACkQAAAXsAAATzAAACngAAAAAAAAAAB4AAAAKRAAABewAABPMAAAKe"
+  }, 
+  "choose-merge-dialog-splitter-state": {
+    "__class__": "bytearray", 
+    "__value__": "AAAA/wAAAAEAAAACAAABTQAAAQAA/////wEAAAABAA=="
+  }, 
+  "convert_bulk_dialog_geom": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAAAAAAhAAAAIwAAB14AAAP4AAAAIwAAACMAAAdcAAAD9gAAAAAAAAAAB4AAAAAjAAAAIwAAB1wAAAP2"
+  }, 
   "convert_single_dialog_geom": {
     "__class__": "bytearray", 
-    "__value__": "AdnQywADAAAAAAAhAAAAPAAAB14AAAQRAAAAIwAAADwAAAdcAAAEDwAAAAAAAAAAB4AAAAAjAAAAPAAAB1wAAAQP"
+    "__value__": "AdnQywADAAAAAAAtAAAAPAAAB2oAAAQRAAAALwAAADwAAAdoAAAEDwAAAAAAAAAAB4AAAAAvAAAAPAAAB2gAAAQP"
   }, 
   "cover_browser_splitter_vertical_state": [
     false, 
@@ -113,6 +135,10 @@
       255
     ]
   ], 
+  "duplicates-question-dialog-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAAAAASdAAABTgAABp8AAALKAAAEnwAAAU4AAAadAAACyAAAAAAAAAAAB4AAAASfAAABTgAABp0AAALI"
+  }, 
   "grid view visible": false, 
   "job-detail-view-dialog-geometry": {
     "__class__": "bytearray", 
@@ -124,15 +150,18 @@
   }, 
   "jobs_dialog_geometry": {
     "__class__": "bytearray", 
-    "__value__": "AdnQywADAAAAAAKIAAABFwAABQQAAAM2AAACigAAARcAAAUCAAADNAAAAAAAAAAAB4AAAAKKAAABFwAABQIAAAM0"
+    "__value__": "AdnQywADAAAAAAMuAAAA8AAABaoAAAMPAAADMAAAAPAAAAWoAAADDQAAAAAAAAAAB4AAAAMwAAAA8AAABagAAAMN"
   }, 
   "library_usage_stats": {
-    "/home/abcdlsj/calibre-lib": 9, 
+    "/home/abcdlsj/calibre-lib": 18, 
     "/home/abcdlsj/calibre_lib": 5
   }, 
   "preferences dialog geometry": {
     "__class__": "bytearray", 
     "__value__": "AdnQywADAAAAAAHpAAAAogAABY4AAANzAAAB6wAAAKIAAAWMAAADcQAAAAAAAAAAB4AAAAHrAAAAogAABYwAAANx"
+  }, 
+  "previous_sort_order_BooksView": {
+    "title": true
   }, 
   "quick_start_guide_added": true, 
   "quickview visible": false, 

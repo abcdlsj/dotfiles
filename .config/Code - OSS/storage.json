@@ -2,7 +2,9 @@
     "telemetry.machineId": "d223949d53805b9dd2c46ca3d5dca1731195500dbc0a4226ed6e2b059ec65630",
     "openedPathsList": {
         "workspaces3": [],
-        "files2": []
+        "files2": [
+            "file:///home/abcdlsj/bootstrap-prefix.sh"
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -44,6 +46,20 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/abcdlsj/bootstrap-prefix.sh",
+                                        "path": "/home/abcdlsj/bootstrap-prefix.sh",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/bootstrap-prefix.sh"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.openRecent",
                                     "label": "&&More..."
                                 },
@@ -73,12 +89,12 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAll",
@@ -146,8 +162,7 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
@@ -539,8 +554,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1377,18 +1391,19 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e1e",
+    "themeBackground": "#282c34",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/abcdlsj/.config/Code - OSS/Backups/1580058116245",
+            "backupPath": "/home/abcdlsj/.config/Code - OSS/Backups/1581404040290",
             "uiState": {
                 "mode": 1,
                 "x": 6,
-                "y": 31,
+                "y": 6,
                 "width": 1908,
                 "height": 1043
             }
         },
         "openedWindows": []
-    }
+    },
+    "pickerWorkingDir": "/home/abcdlsj"
 }
