@@ -1,9 +1,0 @@
-2020/02/16-10:37:22.621 588 Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
-2020/02/16-10:37:22.622 588 Recovering log #1087
-2020/02/16-10:37:22.625 588 Reusing old log /home/abcdlsj/.config/chromium/Default/Sync Data/LevelDB/001087.log 
-2020/02/16-10:56:44.526 1fc3 Level-0 table #1091: started
-2020/02/16-10:56:44.528 1fc3 Level-0 table #1091: 112960 bytes OK
-2020/02/16-10:56:44.529 1fc3 Delete type=0 #1087
-2020/02/16-21:33:04.600 1fc3 Level-0 table #1093: started
-2020/02/16-21:33:04.603 1fc3 Level-0 table #1093: 113048 bytes OK
-2020/02/16-21:33:04.605 1fc3 Delete type=0 #1090
