@@ -1,8 +1,0 @@
-{
-   "extDescription": {
-      "message": "Query the current location of the IP address of the site, ASN, port open information and other information."
-   },
-   "extName": {
-      "message": "WebSite IP Information Query"
-   }
-}
