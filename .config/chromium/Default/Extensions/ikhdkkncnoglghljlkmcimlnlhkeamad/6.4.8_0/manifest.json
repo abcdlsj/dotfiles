@@ -1,0 +1,56 @@
+{
+   "author": "Milk Lee \u003Cmilk.lee@qq.com>",
+   "background": {
+      "scripts": [ "/bundle/commons3.js", "/bundle/bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "/logo.png",
+         "38": "/logo.png"
+      },
+      "default_popup": "/popup/index.html"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Ctrl+Q",
+            "mac": "MacCtrl+Q"
+         }
+      },
+      "translate": {
+         "description": "翻译网页中选中的文本",
+         "suggested_key": {
+            "default": "Alt+A"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "/bundle/commons1.js.css" ],
+      "js": [ "/bundle/commons3.js", "/bundle/commons2.js", "/bundle/commons1.js", "/bundle/content.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file:///*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com; object-src 'self'",
+   "description": "支持谷歌、百度、有道三大翻译和朗读引擎，可以方便的查看、复制和朗读不同引擎的翻译结果。",
+   "homepage_url": "https://github.com/lmk123/crx-selection-translate",
+   "icons": {
+      "128": "/logo.png",
+      "16": "/logo.png",
+      "48": "/logo.png"
+   },
+   "incognito": "split",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC28U3at5pX9CdXpey4QOxy5tpKRQQ+R3IXAaj8NPqT4pQh9X0jpX7Cc4w8SSrVph+m43e9T72B8NEjc9km4boLuxshHVnTGi7HLlQpPQV10BM2GeNMxQDkK5ca3oL6gVMMNGnq+PJDygweV1yMfcsJlLL/zdmrZ5CXADHBZ2lUbwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "29",
+   "name": "划词翻译",
+   "options_page": "/options/index.html",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "/options/index.html"
+   },
+   "permissions": [ "\u003Call_urls>", "contextMenus", "storage", "clipboardWrite", "clipboardRead", "activeTab", "identity", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.4.8",
+   "web_accessible_resources": [ "/bundle/*.woff", "/content-scripts/web/embed/*", "/pdf-viewer/*" ]
+}

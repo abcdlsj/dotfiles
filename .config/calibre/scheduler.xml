@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <recipe_collection xmlns="http://calibre-ebook.com/recipe_collection">
 
-	<recipe_customization add_title_tag="yes" keep_issues="0" custom_tags="" id="builtin:zaobao"/>
-
 	<recipe_customization add_title_tag="yes" keep_issues="0" custom_tags="" id="builtin:apple_daily"/>
 
 	<recipe_customization custom_tags="" keep_issues="0" id="builtin:people_daily" add_title_tag="yes"/>
+
+	<recipe_customization id="builtin:zaobao" add_title_tag="yes" custom_tags="" keep_issues="0"/>
 
 </recipe_collection>

@@ -1,6 +1,12 @@
 {
   "local_storage": {
     "search-bar-history-search-in-book": [
+      "2.42", 
+      "2.40", 
+      "2.19", 
+      "2.18", 
+      "2.32", 
+      "2.31", 
       "2.30", 
       "2.29", 
       "2.28", 
@@ -9,18 +15,16 @@
       "2.24", 
       "2.23", 
       "2.22", 
-      "2.20", 
-      "2.19", 
-      "2.18"
+      "2.20"
     ]
   }, 
   "main_window_geometry": {
     "__class__": "bytearray", 
-    "__value__": "AdnQywADAAAAAAAEAAAABAAAB3sAAAQaAAAABgAAAAYAAAd5AAAEGAAAAAAAAAAAB4AAAAAGAAAABgAAB3kAAAQY"
+    "__value__": "AdnQywADAAAAAAAEAAAAHAAAB3sAAAQaAAAABgAAABwAAAd5AAAEGAAAAAAAAAAAB4AAAAAGAAAAHAAAB3kAAAQY"
   }, 
   "main_window_state": {
     "__class__": "bytearray", 
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIgA////AAAAAQAAAAAAAAAA/AIAAAAD+wAAABwAYgBvAG8AawBtAGEAcgBrAHMALQBkAG8AYwBrAAAAAAD/////AAAAzQD////7AAAAHABpAG4AcwBwAGUAYwB0AG8AcgAtAGQAbwBjAGsAAAAAAP////8AAAATAP////sAAAAWAGwAbwBvAGsAdQBwAC0AZABvAGMAawAAAAAA/////wAAAGMA////AAAHdAAABBMAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEAAAAD/fwCAAAAAfsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAAD/QAAAIgA////AAAAAQAAAQAAAAP9/AIAAAAD+wAAABwAYgBvAG8AawBtAGEAcgBrAHMALQBkAG8AYwBrAQAAAAAAAAP9AAAAzQD////7AAAAHABpAG4AcwBwAGUAYwB0AG8AcgAtAGQAbwBjAGsAAAAAAP////8AAAATAP////sAAAAWAGwAbwBvAGsAdQBwAC0AZABvAGMAawAAAAAA/////wAAAGMA////AAAGbgAAA/0AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   }, 
   "old_prefs_migrated": true, 
   "session_data": {
@@ -41,7 +45,7 @@
         ], 
         "key": "/home/abcdlsj/calibre-lib/unknown/SICP Jie Ti Ji (1)/SICP Jie Ti Ji - unknown.epub", 
         "pathtoebook": "/home/abcdlsj/calibre-lib/unknown/SICP Jie Ti Ji (1)/SICP Jie Ti Ji - unknown.epub", 
-        "timestamp": "2020-02-16T06:50:35.907Z", 
+        "timestamp": "2020-02-19T03:14:09.636Z", 
         "title": "SICP 解题集"
       }, 
       {

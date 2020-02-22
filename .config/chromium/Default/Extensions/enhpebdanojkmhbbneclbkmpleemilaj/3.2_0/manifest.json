@@ -1,0 +1,44 @@
+{
+   "description": "pro grey theme, best minimal grey theme",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpSMTGP/V0IogHRgVjG87sldInGoPAaEGQf2OwfYTjM6KfJ4p/L7ecKDaHtupELdKcECbNl7EzicyR42V4j6xwbAZ81xQ/yiyHhfG8vb6hyrrreLVk6nSFN9Ev2dizBcwwiHYj9XzK+bmGAzNzsNbMTBqivJgi5pCnkpE+Ct+DHwIDAQAB",
+   "manifest_version": 2,
+   "name": "pro grey",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 102, 102, 102 ],
+         "button_background": [ 102, 102, 102 ],
+         "control_background": [ 102, 102, 102, 0.8 ],
+         "frame": [ 102, 102, 102 ],
+         "frame_inactive": [ 180, 180, 180 ],
+         "frame_incognito": [ 0, 0, 0 ],
+         "frame_incognito_inactive": [ 20, 20, 20 ],
+         "ntp_background": [ 214, 214, 214 ],
+         "ntp_header": [ 255, 255, 255 ],
+         "ntp_link": [ 30, 30, 30 ],
+         "ntp_section": [ 220, 220, 220 ],
+         "ntp_section_link": [ 102, 102, 102 ],
+         "ntp_section_text": [ 102, 102, 102 ],
+         "ntp_text": [ 30, 30, 30 ],
+         "tab_background_inactive": [ 198, 198, 198 ],
+         "tab_background_text": [ 30, 30, 30 ],
+         "tab_text": [ 30, 30, 30 ],
+         "toolbar": [ 227, 227, 227 ]
+      },
+      "images": {
+         "theme_ntp_background": "images/theme_ntp_background.png",
+         "theme_tab_background": "images/theme_tabbackground.png",
+         "theme_tab_background_incognito": "images/theme_tabbackground_incognito.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "center",
+         "ntp_background_repeat": "repeat",
+         "ntp_logo_alternate": 1
+      },
+      "tints": {
+         "background_tab": [ 163, 163, 163 ],
+         "buttons": [ 0, 0, 0.4 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.2"
+}

@@ -1,0 +1,18 @@
+2020/02/19-21:31:45.824 3176c Reusing MANIFEST /home/abcdlsj/.config/chromium/Default/Session Storage/MANIFEST-000001
+2020/02/19-21:31:45.824 3176c Recovering log #564
+2020/02/19-21:31:45.824 3176c Reusing old log /home/abcdlsj/.config/chromium/Default/Session Storage/000564.log 
+2020/02/19-22:56:41.279 36e22 Level-0 table #568: started
+2020/02/19-22:56:41.281 36e22 Level-0 table #568: 20843 bytes OK
+2020/02/19-22:56:41.282 36e22 Delete type=0 #564
+2020/02/19-22:56:41.282 36e22 Compacting 4@0 + 1@1 files
+2020/02/19-22:56:41.284 36e22 Generated table #569@0: 54 keys, 14007 bytes
+2020/02/19-22:56:41.284 36e22 Compacted 4@0 + 1@1 files => 14007 bytes
+2020/02/19-22:56:41.285 36e22 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/02/19-22:56:41.285 36e22 Delete type=2 #563
+2020/02/19-22:56:41.285 36e22 Delete type=2 #568
+2020/02/19-22:56:41.285 36e22 Delete type=2 #565
+2020/02/19-22:56:41.285 36e22 Delete type=2 #561
+2020/02/19-22:56:41.285 36e22 Delete type=2 #559
+2020/02/19-23:14:12.806 36e22 Level-0 table #571: started
+2020/02/19-23:14:12.808 36e22 Level-0 table #571: 20033 bytes OK
+2020/02/19-23:14:12.810 36e22 Delete type=0 #567

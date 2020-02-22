@@ -1,0 +1,29 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "org-mode-unicorn.png"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "description": "Capture current page with org-capture",
+         "suggested_key": {
+            "default": "Ctrl+Shift+L",
+            "mac": "Command+Shift+L"
+         }
+      }
+   },
+   "description": "A helper for capturing things via org-protocol in emacs: First, set up: http://orgmode.org/worg/org-contrib/org-protocol.html",
+   "homepage_url": "https://github.com/sprig/org-capture-extension",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmPu+pqPPuumEElf8LjEjrY83rS66TNmB0ztwQhbmZtL9R2wty3aEWOljzq8PBWVX4vsemUIB78p5EHkc66ZmwLoa79cRS9k6+PE55lH3J5vS/T4vZtBgGnGmDYVXhohQ36PmSvwap3aIFosstfltExx/QHSrDD9CG1jngcBsmB+78kJzvEc/k8NobeF3K8BRkEf+ND8lgDxlb8VoM7Bm8RGjcXZs9CESYweasuLcjwk32YYesgaACPIxhAsKw59Mzx20d694Ai3rx3DcCoqjVlyzB21EzDcNdtnzt6o0/g5fG12B8k4FMZL6elaosf6OYcHcC/IuxOn/eQEXF+L4HQIDAQAB",
+   "manifest_version": 2,
+   "name": "Org Capture",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "activeTab", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.1"
+}

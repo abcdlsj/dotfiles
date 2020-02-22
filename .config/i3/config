@@ -49,11 +49,13 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+q kill
 # i3-scrot
 bindsym $mod+p exec i3-scrot
-bindsym $mod+Shift+p exec i3-scrot -s
+bindsym --release $mod+Shift+p exec i3-scrot -s
+#bindsym --release $mod+p exec "scregcp.sh -s /home/abcdlsj/pictures/scrot/"
 # start dmenu (a program launcher)
 bindsym $mod+d exec "rofi -combi-modi window,drun -show combi -modi combi"
-
-
+#
+focus_follows_mouse no
+#
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
@@ -151,18 +153,20 @@ assign [class="mpv"] $ws4
 for_window [class="VirtualBox"] floating enable
 for_window [class="netease-cloud-music"] floating enable
 #
+for_window [class=".*"] title_format "<b>%title</b>"
+#
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
-    bindsym l exec --no-startup-id i3exit lock, mode "default"
-    bindsym e exec --no-startup-id i3exit logout, mode "default"
-    bindsym s exec --no-startup-id i3exit suspend, mode "default"
-    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
-    bindsym r exec --no-startup-id i3exit reboot, mode "default"
-    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
+bindsym l exec --no-startup-id i3exit lock, mode "default"
+bindsym e exec --no-startup-id i3exit logout, mode "default"
+bindsym s exec --no-startup-id i3exit suspend, mode "default"
+bindsym h exec --no-startup-id i3exit hibernate, mode "default"
+bindsym r exec --no-startup-id i3exit reboot, mode "default"
+bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
 
-    # back to normal: Enter or Escape
-    bindsym Return mode "default"
-    bindsym Escape mode "default"
+# back to normal: Enter or Escape
+bindsym Return mode "default"
+bindsym Escape mode "default"
 }
 bindsym $mod+Escape mode "$mode_system"
 #
@@ -187,27 +191,27 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
+# These bindings trigger as soon as you enter the resize mode
 
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+# Pressing left will shrink the window’s width.
+# Pressing right will grow the window’s width.
+# Pressing up will shrink the window’s height.
+# Pressing down will grow the window’s height.
+bindsym j resize shrink width 10 px or 10 ppt
+bindsym k resize grow height 10 px or 10 ppt
+bindsym l resize shrink height 10 px or 10 ppt
+bindsym semicolon resize grow width 10 px or 10 ppt
 
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+# same bindings, but for the arrow keys
+bindsym Left resize shrink width 10 px or 10 ppt
+bindsym Down resize grow height 10 px or 10 ppt
+bindsym Up resize shrink height 10 px or 10 ppt
+bindsym Right resize grow width 10 px or 10 ppt
 
-        # back to normal: Enter or Escape or $mod+r
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-        bindsym $mod+r mode "default"
+# back to normal: Enter or Escape or $mod+r
+bindsym Return mode "default"
+bindsym Escape mode "default"
+bindsym $mod+r mode "default"
 }
 
 bindsym $mod+r mode "resize"
@@ -242,23 +246,24 @@ set $base00_t #181818CC
 set $base01_t #282828CC
 # Basic bar configuration using the Base16 variables.
 bar {
-	i3bar_command i3bar -t
-	status_command i3blocks
-    #status_command i3status -c ~/.config/i3status/i3status.conf
-    position bottom
-	colors {
-        background $base00_t
-        separator  $base01_t
-        statusline $base04
+#i3bar_command i3bar -t
+status_command i3blocks
+#status_command i3status -c ~/.config/i3status/i3status.conf
+position bottom
+colors {
 
-        # State             Border  BG      Text
-        focused_workspace   $base05 $base0D $base00
-        active_workspace    $base05 $base03 $base00
-        inactive_workspace  $base03 $base01 $base05
-        urgent_workspace    $base08 $base08 $base00
-        binding_mode        $base00 $base0A $base00
-    }
-}
+background $base00_t
+separator  $base01_t
+statusline $base04
+
+# State             Border  BG      Text
+focused_workspace   $base05 $base0D $base00
+active_workspace    $base05 $base03 $base00
+inactive_workspace  $base03 $base01 $base05
+urgent_workspace    $base08 $base08 $base00
+binding_mode        $base00 $base0A $base00
+
+}}
 
 # Basic color configuration using the Base16 variables for windows and borders.
 # Property Name         Border  BG      Text    Indicator Child Border
