@@ -41,7 +41,7 @@ interval=1
 [volume]
 label=♪
 #label=VOL
-interval=once
+interval=1
 signal=10
 #STEP=5%
 
@@ -49,15 +49,15 @@ signal=10
 #
 # The type defaults to "mem" if the instance is not specified.
 [memory]
-label=MEM
+label=MEM 
 separator=false
-interval=30
+interval=10
 
 [memory]
 label=SWAP
 instance=swap
 separator=false
-interval=30
+interval=10
 
 # Disk usage
 #
@@ -65,10 +65,13 @@ interval=30
 # The script may be called with a optional argument to set the alert
 # (defaults to 10 for 10%).
 [disk]
-label=HOME
-#DIR=/mnt/data
-interval=30
+label=MEDIA 
+DIR=/home/abcdlsj/media
+interval=10
 
+[disk]
+LABEL=HOME 
+interval=10
 # Network interface monitoring
 #
 # If the instance is not specified, use the interface used for default route.
@@ -94,20 +97,20 @@ interval=5
 # The script may be called with -w and -c switches to specify thresholds,
 # see the script for details.
 [cpu_usage]
-label=CPU
+label=CPU 
 interval=10
-min_width=CPU 100.00%
+min_width=CPU 100%
 #separator=false
 
 [load_average]
-label=LOAD
+label=LOAD 
 interval=10
 
 # Battery indicator
 #
 # The battery instance defaults to 0.
 [battery]
-label=BAT
+label=BAT 
 #label=⚡
 interval=30
 
@@ -115,14 +118,14 @@ interval=30
 #
 [time]
 command=date '+%Y-%m-%d %H:%M:%S'
-interval=5
+interval=1
 
 # Generic media player support
 #
 # This displays "ARTIST - SONG" if a music is playing.
 # Supported players are: spotify, vlc, audacious, xmms2, mplayer, and others.
 #[mediaplayer]
-#instance=spotify
+#instance=vlc
 #interval=5
 #signal=10
 

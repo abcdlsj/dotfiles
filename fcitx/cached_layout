@@ -24,6 +24,8 @@ English (US):us:English (US, international AltGr Unicode combining, alternative)
 English (US):us:Atsina:ats:en
 English (US):us:Coeur d'Alene Salish:crd:crd
 English (US):us:Czech Slovak and German (US):cz_sk_de:en
+English (US):us:English (Drix):drix:en
+English (US):us:German, Swedish and Finnish (US):de_se_fi:en
 English (US):us:English (US, IBM Arabic 238_L):ibm238l:en
 English (US):us:English (US, Sun Type 6/7):sun_type6:en
 English (US):us:English (Carpalx):carpalx:en
@@ -56,6 +58,7 @@ Arabic:ara:Arabic (with extensions for Arabic-written other languages and Arabic
 Arabic:ara:Ugaritic instead of Arabic:uga:ar
 Albanian:al:sq
 Albanian:al:Albanian (Plisi):plisi:sq
+Albanian:al:Albanian (Veqilharxhi):veqilharxhi:sq
 Armenian:am:hy
 Armenian:am:Armenian (phonetic):phonetic:hy
 Armenian:am:Armenian (alt. phonetic):phonetic-alt:hy
@@ -231,14 +234,14 @@ Iraqi:iq:Kurdish (Iraq, Arabic-Latin):ku_ara:ku
 Faroese:fo:fo
 Faroese:fo:Faroese (no dead keys):nodeadkeys:fo
 Finnish:fi:fi
+Finnish:fi:Finnish (Winkeys):winkeys:fi
 Finnish:fi:Finnish (classic):classic:fi
 Finnish:fi:Finnish (classic, no dead keys):nodeadkeys:fi
-Finnish:fi:Finnish (Winkeys):winkeys:fi
 Finnish:fi:Northern Saami (Finland):smi:se
 Finnish:fi:Finnish (Macintosh):mac:fi
-Finnish:fi:Finnish (DAS):das:fi
 Finnish:fi:Finnish (Sun Type 6/7):sun_type6:fi
-Finnish:fi:Finnish Dvorak:fidvorak:fi
+Finnish:fi:Finnish (DAS):das:fi
+Finnish:fi:Finnish (Dvorak):fidvorak:fi
 French:fr:fr
 French:fr:French (no dead keys):nodeadkeys:fr
 French:fr:French (with Sun dead keys):sundeadkeys:fr
@@ -392,6 +395,7 @@ Lithuanian:lt:Lithuanian (US, with Lithuanian letters):us:lt
 Lithuanian:lt:Lithuanian (IBM LST 1205-92):ibm:lt
 Lithuanian:lt:Lithuanian (LEKP):lekp:lt
 Lithuanian:lt:Lithuanian (LEKPa):lekpa:lt
+Lithuanian:lt:Samogitian:sgs:sgs
 Lithuanian:lt:Lithuanian (US Dvorak with Lithuanian letters):us_dvorak:lt
 Lithuanian:lt:Lithuanian (Sun Type 6/7):sun_type6:lt
 Latvian:lv:lv
@@ -496,6 +500,7 @@ Russian:ru:Russian (phonetic, French):phonetic_fr:ru
 Russian:ru:Church Slavonic:chu:cu
 Russian:ru:Russian (with Ukrainian-Belorussian layout):ruu:ru
 Russian:ru:Russian (Rulemak, phonetic Colemak):rulemak:ru
+Russian:ru:Russian (phonetic Macintosh):phonetic_mac:ru
 Russian:ru:Russian (Sun Type 6/7):sun_type6:ru
 Russian:ru:Russian (with US punctuation):unipunct:ru
 Russian:ru:Russian (Polyglot and Reactionary):prxn:ru
@@ -516,6 +521,7 @@ Slovak:sk:sk
 Slovak:sk:Slovak (extended backslash):bksl:sk
 Slovak:sk:Slovak (QWERTY):qwerty:sk
 Slovak:sk:Slovak (QWERTY, extended backslash):qwerty_bksl:sk
+Slovak:sk:Slovak (ACC layout, only accented letters):acc:sk
 Slovak:sk:Slovak (Sun Type 6/7):sun_type6:sk
 Spanish:es:es
 Spanish:es:Spanish (no dead keys):nodeadkeys:es
@@ -663,6 +669,7 @@ Moldavian:md:ro
 Moldavian:md:Moldavian (Gagauz):gag:gag
 Indonesian (Arab Melayu, phonetic):id:id
 Indonesian (Arab Melayu, phonetic):id:Indonesian (Arab Melayu, ext. phonetic):phoneticx:id
+Indonesian (Javanese):jv:
 Malay (Jawi, Arabic Keyboard):my:id
 Malay (Jawi, Arabic Keyboard):my:Malay (Jawi, phonetic):phonetic:id
 APL:apl:en

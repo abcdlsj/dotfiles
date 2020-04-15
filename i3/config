@@ -29,9 +29,9 @@ new_float normal
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 exec --no-startup-id blueman-applet
-exec --no-startup-id dropbox
-exec --no-startup-id "conky -c ~/.config/conky/org-todo.config"
-exec --no-startup-id "echo 800 > /sys/class/backlight/intel_backlight/brightness"
+#exec --no-startup-id dropbox
+#exec --no-startup-id "conky -c ~/.config/conky/org-todo.config"
+exec --no-startup-id "echo 600 > /sys/class/backlight/intel_backlight/brightness"
 # amixer
 exec --no-startup-id exec amixer set Master 40%
 bindsym $mod+F7 exec amixer set Master 1%+
@@ -174,11 +174,12 @@ bindsym $mod+Escape mode "$mode_system"
 
 #
 #MMMMMMMM
-exec_always --no-startup-id /usr/lib/gsd-xsettings&
+#exec_always --no-startup-id /usr/lib/gsd-xsettings&
 exec_always --no-startup-id feh --bg-fill ~/Pictures/eclipse_moon_light_space_120001_3840x2160.jpg
 #exec_always --no-startup-id ibus-daemon -x -d
 exec_always --no-startup-id compton -b
 # exec_always --no-startup-id redshift
+#exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
 #
 bindsym $mod+q split toggle
 #
