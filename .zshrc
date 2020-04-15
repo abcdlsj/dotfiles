@@ -8,7 +8,7 @@ export ZSH="/home/abcdlsj/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="ys"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -105,25 +105,28 @@ alias s="source ~/.zshrc"
 alias c="clear"
 alias vim="nvim"
 alias em="emacs -nw"
-alias start_pomo="start_pomo &"
-alias close_pomo="start_pomo &"
+alias understand="LD_PRELOAD=/usr/lib/libfreetype.so.6 understand"
 #######################
 export NEMU_HOME=/home/abcdlsj/GithubPro/ics2019/nemu
 export AM_HOME=/home/abcdlsj/GithubPro/ics2019/nexus-am
 export NAVY_HOME=/home/abcdlsj/GithubPro/ics2019/navy-apps
 export ISA=riscv32
 export XDG_CONFIG_HOME=$HOME/.config
-export PATH=$HOME/Scripts/:$HOME/.local/bin:$HOME/.cargo/bin:$PATH
+export PATH=$HOME/Scripts/:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/go/bin/:$HOME/scitools/bin/linux64/:$PATH
+export STIHOME=$HOME/scitools/
 export SCRIPT_DIR=$HOME/.config/i3blocks/
 export TERMINAL=alacritty
 export WORKSPACE=/home/abcdlsj/workspace/
 export EDITOR="/usr/bin/nvim"
+export GENTOO_MIRRORS="https://mirrors.tuna.tsinghua.edu.cn/gentoo"
+export GOPATH="/home/abcdlsj/go/"
 ######################
-vterm_prompt_end() {
-    printf "\e]51;A$(whoami)@$(hostname):$(pwd)\e\\";
-}
-PROMPT=$PROMPT'%{$(vterm_prompt_end)%}'
-
 if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
   exec startx
 fi
+
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/"
+[ -n "$PS1" ] && \
+    [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
+        eval "$("$BASE16_SHELL/profile_helper.sh")"

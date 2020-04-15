@@ -52,5 +52,3 @@ eval "$(dbus-launch --sh-syntax --exit-with-session)"
 #ibus-daemon -d -x
 
 fcitx &
-exec i3
-#exec startplasma-x11
