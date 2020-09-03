@@ -13,55 +13,76 @@ set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
+font pango:Ubuntu Regular, Noto Sans CJK SC Medium 8
+
+default_border pixel 1
+default_floating_border normal
+
+focus_follows_mouse no
+hide_edge_borders both
+
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:Monaco 11
+#font pango:DejaVu Sans Mono 8
 
-new_window pixel 2
-new_float normal
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
+
 exec --no-startup-id nm-applet
 exec --no-startup-id blueman-applet
-#exec --no-startup-id dropbox
-#exec --no-startup-id "conky -c ~/.config/conky/org-todo.config"
-exec --no-startup-id "echo 600 > /sys/class/backlight/intel_backlight/brightness"
-# amixer
+# exec --no-startup-id flameshot
+exec --no-startup-id fcitx
+exec --no-startup-id picom -b # --backend xrender
+exec --no-startup-id "synclient TapButton1=1 TapButton2=3 TapButton3=2 PalmDetect=1"
+exec --no-startup-id xrandr --output eDP1 --primary
 exec --no-startup-id exec amixer set Master 40%
-bindsym $mod+F7 exec amixer set Master 1%+
-bindsym $mod+F8 exec amixer set Master 1%-
-# pomotoro
-bindsym $mod+F9 exec start_pomo &
-bindsym $mod+F10 exec cancel_pomo &
+#
+exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpaper/Wallpaper_8K_1.jpg
+
+# bindsym $mod+p exec i3-scrot
+# bindsym --release $mod+Shift+p exec i3-scrot -s
+bindsym --release $mod+p exec flameshot gui
+bindsym $mod+m bar mode toggle
+
+bindsym $mod+F7 exec amixer set Master 2%-
+bindsym $mod+F8 exec amixer set Master 2%+
+
 # Use pactl to adjust volume in PulseAudio.
-#set $refresh_i3status killall -SIGUSR1 i3status
+set $refresh_i3status killall -SIGUSR1 i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+bindsym XF86MonBrightnessUp exec xbacklight -inc 5
+bindsym XF86MonBrightnessDown exec xbacklight -dec 5
+# Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec alacritty
+
 # kill focused window
 bindsym $mod+Shift+q kill
-# i3-scrot
-bindsym $mod+p exec i3-scrot
-bindsym --release $mod+Shift+p exec i3-scrot -s
-#bindsym --release $mod+p exec "scregcp.sh -s /home/abcdlsj/pictures/scrot/"
+
 # start dmenu (a program launcher)
-bindsym $mod+d exec "rofi -combi-modi window,drun -show combi -modi combi"
-#
-focus_follows_mouse no
-#
+bindsym $mod+d exec "rofi -show combi"
+# There also is the (new) i3-dmenu-desktop which only displays applications
+# shipping a .desktop file. It is a wrapper around dmenu, so you need that
+# installed.
+# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
-bindsym $mod+l focus right
-bindsym $mod+i focus up
-# bindsym $mod+semicolon focus right
+bindsym $mod+l focus up
+bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -72,8 +93,8 @@ bindsym $mod+Right focus right
 # move focused window
 bindsym $mod+Shift+j move left
 bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move right
-bindsym $mod+Shift+i move up
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+semicolon move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -146,44 +167,19 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 #
 assign [class="netease-cloud-music"] $ws8
+assign [class="eletron-netease-cloud-music"] $ws8
 assign [class="Emacs"] $ws1
 assign [class="^Google-chrome$"] $ws2
-assign [class="mpv"] $ws4
+assign [class="Chromium"] $ws2
+# assign [class="mpv"] $ws4
 #
-for_window [class="VirtualBox"] floating enable
-for_window [class="netease-cloud-music"] floating enable
-#
-for_window [class=".*"] title_format "<b>%title</b>"
-#
-set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
-mode "$mode_system" {
-bindsym l exec --no-startup-id i3exit lock, mode "default"
-bindsym e exec --no-startup-id i3exit logout, mode "default"
-bindsym s exec --no-startup-id i3exit suspend, mode "default"
-bindsym h exec --no-startup-id i3exit hibernate, mode "default"
-bindsym r exec --no-startup-id i3exit reboot, mode "default"
-bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
 
-# back to normal: Enter or Escape
-bindsym Return mode "default"
-bindsym Escape mode "default"
-}
-bindsym $mod+Escape mode "$mode_system"
-#
-#exec --no-startup-id xset dpms 300
+for_window [class="mpv"] floating enable
+for_window [class="Nautilus"] floating enable
+for_window [class="Lxappearance"] floating enable sticky enable
+for_window [class="(?i)virtualbox"] floating enable
 
-#
-#MMMMMMMM
-#exec_always --no-startup-id /usr/lib/gsd-xsettings&
-exec_always --no-startup-id feh --bg-fill ~/Pictures/eclipse_moon_light_space_120001_3840x2160.jpg
-#exec_always --no-startup-id ibus-daemon -x -d
-exec_always --no-startup-id compton -b
-# exec_always --no-startup-id redshift
-#exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
-#
-bindsym $mod+q split toggle
-#
-#reload the configuration file
+# reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
@@ -192,85 +188,76 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
-# These bindings trigger as soon as you enter the resize mode
+        # These bindings trigger as soon as you enter the resize mode
 
-# Pressing left will shrink the window’s width.
-# Pressing right will grow the window’s width.
-# Pressing up will shrink the window’s height.
-# Pressing down will grow the window’s height.
-bindsym j resize shrink width 10 px or 10 ppt
-bindsym k resize grow height 10 px or 10 ppt
-bindsym l resize shrink height 10 px or 10 ppt
-bindsym semicolon resize grow width 10 px or 10 ppt
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym semicolon resize grow width 10 px or 10 ppt
 
-# same bindings, but for the arrow keys
-bindsym Left resize shrink width 10 px or 10 ppt
-bindsym Down resize grow height 10 px or 10 ppt
-bindsym Up resize shrink height 10 px or 10 ppt
-bindsym Right resize grow width 10 px or 10 ppt
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
 
-# back to normal: Enter or Escape or $mod+r
-bindsym Return mode "default"
-bindsym Escape mode "default"
-bindsym $mod+r mode "default"
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
 }
 
 bindsym $mod+r mode "resize"
 
-gaps inner 2
-gaps outer 2
+set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id i3exit lock, mode "default"
+    bindsym e exec --no-startup-id i3exit logout, mode "default"
+    bindsym s exec --no-startup-id i3exit suspend, mode "default"
+    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
+    bindsym r exec --no-startup-id i3exit reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
 
-hide_edge_borders both
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+Escape mode "$mode_system"
 
-## Base16 Default Dark
-# Author: Chris Kempson (http://chriskempson.com)
-#
-# You can use these variables anywhere in the i3 configuration file.
+# ###
+# set $base00 #1d1f21
+# set $base01 #282a2e
+# set $base02 #373b41
+# set $base03 #969896
+# set $base04 #b4b7b4
+# set $base05 #c5c8c6
+# set $base06 #e0e0e0
+# set $base07 #ffffff
+# set $base08 #CC342B
+# set $base09 #F96A38
+# set $base0A #FBA922
+# set $base0B #198844
+# set $base0C #3971ED
+# set $base0D #3971ED
+# set $base0E #A36AC7
+# set $base0F #3971ED
 
-set $base00 #181818
-set $base01 #282828
-set $base02 #383838
-set $base03 #585858
-set $base04 #b8b8b8
-set $base05 #d8d8d8
-set $base06 #e8e8e8
-set $base07 #f8f8f8
-set $base08 #ab4642
-set $base09 #dc9656
-set $base0A #f7ca88
-set $base0B #a1b56c
-set $base0C #86c1b9
-set $base0D #7cafc2
-set $base0E #ba8baf
-set $base0F #a16946
-set $base00_t #181818CC
-set $base01_t #282828CC
 # Basic bar configuration using the Base16 variables.
 bar {
-#i3bar_command i3bar -t
-status_command i3blocks
-#status_command i3status -c ~/.config/i3status/i3status.conf
-position bottom
-colors {
+	position top
+	font pango: scientifica 11
+	status_command i3status -c ~/.config/i3status/i3status.conf
+}
 
-background $base00_t
-separator  $base01_t
-statusline $base04
-
-# State             Border  BG      Text
-focused_workspace   $base05 $base0D $base00
-active_workspace    $base05 $base03 $base00
-inactive_workspace  $base03 $base01 $base05
-urgent_workspace    $base08 $base08 $base00
-binding_mode        $base00 $base0A $base00
-
-}}
-
-# Basic color configuration using the Base16 variables for windows and borders.
-# Property Name         Border  BG      Text    Indicator Child Border
-client.focused          $base05 $base0D $base00 $base0D $base0C
-client.focused_inactive $base01 $base01 $base05 $base03 $base01
-client.unfocused        $base01 $base00 $base05 $base01 $base01
-client.urgent           $base08 $base08 $base00 $base08 $base08
-client.placeholder      $base00 $base00 $base05 $base00 $base00
-client.background       $base07
+# # Basic color configuration using the Base16 variables for windows and borders.
+# # Property Name         Border  BG      Text    Indicator Child Border
+# client.focused          $base05 $base0D $base00 $base0D $base0C
+# client.focused_inactive $base01 $base01 $base05 $base03 $base01
+# client.unfocused        $base01 $base00 $base05 $base01 $base01
+# client.urgent           $base08 $base08 $base00 $base08 $base08
+# client.placeholder      $base00 $base00 $base05 $base00 $base00
+# client.background       $base07
